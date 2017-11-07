@@ -1,6 +1,6 @@
 ---
 title: pulseIn()
-categories: [ "Funzioni" ]
+categories: [ "Functions" ]
 subCategories: [ "I/O Avanzato" ]
 ---
 
