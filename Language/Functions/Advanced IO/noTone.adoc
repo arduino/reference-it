@@ -2,7 +2,7 @@
 title: noTone()
 title_expanded: ""
 categories: [ "Functions" ]
-subCategories: [ "Advanced I/O" ]
+subCategories: [ "I/O Avanzato" ]
 aliases: [ /language/functions/advanced-io/noTone/ ]
 ---
 
@@ -19,23 +19,23 @@ aliases: [ /language/functions/advanced-io/noTone/ ]
 --
 
 [float]
-=== Description
-Stops the generation of a square wave triggered by `tone()`. Has no effect if no tone is being generated.
+=== Descrizione
+Interrompe la generazione dell'onda quadra causata da `tone()`. Non ha alcun effetto se non si sta generando alcun tono.
 [%hardbreaks]
 
 
 [float]
-=== Syntax
+=== Sintassi
 `noTone(pin)`
 
 
 [float]
-=== Parameters
-`pin`: the pin on which to stop generating the tone
+=== Parametri
+`pin`: il pin sul quale interrompere la generazione del tono
 
 [float]
-=== Returns
-Nothing
+=== Restituisce
+Nulla
 
 --
 // OVERVIEW SECTION ENDS
@@ -48,8 +48,8 @@ Nothing
 --
 
 [float]
-=== Notes and Warnings
-If you want to play different pitches on multiple pins, you need to call noTone() on one pin before calling `tone()` on the next pin.
+=== Note e Avvertimenti
+Se vuoi riprodurre toni differenti su pin diversi, devi richiamare `noTone()` su un pin prima di chiamare `tone()` sul pin successivo.
 [%hardbreaks]
 
 --
