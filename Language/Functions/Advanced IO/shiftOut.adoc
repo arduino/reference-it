@@ -1,7 +1,7 @@
 ---
 title: shiftOut()
 categories: [ "Functions" ]
-subCategories: [ "Advanced I/O" ]
+subCategories: [ "I/O Avanzato" ]
 ---
 
 :source-highlighter: pygments
@@ -17,34 +17,34 @@ subCategories: [ "Advanced I/O" ]
 --
 
 [float]
-=== Description
-Shifts out a byte of data one bit at a time. Starts from either the most (i.e. the leftmost) or least (rightmost) significant bit. Each bit is written in turn to a data pin, after which a clock pin is pulsed (taken high, then low) to indicate that the bit is available.
+=== Descrizione
+Fa "scorrere" un byte di dati, inviandolo dall'arduino ad un dispositivo esterno, un bit alla volta. Può partire sia dal bit più significativo ( il primo a sinistra ) che dal meno significativo ( l'ultimo a destra ). Ogni bit viene assegnato a turno al pin specificato, dopo di che viene generato un impulso sul pin di clock ( portato prima nello stato HIGH, poi LOW ) per indicare che il bit è disponibile.
 
-Note- if you're interfacing with a device that's clocked by rising edges, you'll need to make sure that the clock pin is low before the call to `shiftOut()`, e.g. with a call to `digitalWrite(clockPin, LOW)`.
+Se ti stai interfacciando con un dispositivo che è controllato dalle transizioni crescenti del segnale di clock ( LOW -> HIGH ), dovrai assicurarti che il pin di clock sia nello stato LOW prima di effettuare la prima chiamata a `shiftIn()`, ad esempio con una chiamata a `digitalWrite(clockPin, LOW)`.
 
-This is a software implementation; see also the linkhttps://www.arduino.cc/en/Reference/SPI[SPI library], which provides a hardware implementation that is faster but works only on specific pins.
+NOTA: questa è un'implementazione software; Arduino fornisce anche una link:https://www.arduino.cc/en/Reference/SPI[libreria SPI] che usa l'implementazione hardware, che è piu veloce ma funziona solo su pin specifici.
 [%hardbreaks]
 
 
 [float]
-=== Syntax
-`shiftOut(dataPin, clockPin, bitOrder, value)`
+=== Sintassi
+`shiftOut(dataPin, clockPin, bitOrder, dati)`
 
 
 [float]
-=== Parameters
-`dataPin`: the pin on which to output each bit (int)
+=== Parametri
+`dataPin`: il pin al quale inviare i dati (int)
 
-`clockPin`: the pin to toggle once the dataPin has been set to the correct value (int)
+`clockPin`: il pin che invia l'impulso dopo che il `dataPin` è stato impostato al valore corretto (int)
 
-`bitOrder`: which order to shift out the bits; either MSBFIRST or LSBFIRST.
-(Most Significant Bit First, or, Least Significant Bit First)
+`bitOrder`: l'ordine in cui far "scorrere" i bit; può essere *MSBFIRST* oppure *LSBFIRST*.
+( Prima i bit più significativi, oppure, Prima i bit meno significativi )
 
-`value`: the data to shift out. (byte)
+`dati`: i dati da inviare. (byte)
 
 [float]
-=== Returns
-Nothing
+=== Restituisce
+Nulla
 
 --
 // OVERVIEW SECTION ENDS
@@ -57,43 +57,46 @@ Nothing
 --
 
 [float]
-=== Example Code
+=== Codice di esempio
 // Describe what the example code is all about and add relevant code   ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
-For accompanying circuit, see the http://arduino.cc/en/Tutorial/ShiftOut[tutorial on controlling a 74HC595 shift register].
+Per il circuito di accompagnamento, vedi il http://arduino.cc/en/Tutorial/ShiftOut[tutorial su come controllare un registro a scorrimento 74HC595].
 
 [source,arduino]
 ----
 //**************************************************************//
-//  Name    : shiftOutCode, Hello World                         //
-//  Author  : Carlyn Maw,Tom Igoe                               //
-//  Date    : 25 Oct, 2006                                      //
-//  Version : 1.0                                               //
-//  Notes   : Code for using a 74HC595 Shift Register           //
-//          : to count from 0 to 255                            //
+//  Nome    : shiftOutCode, Hello World                         //
+//  Autore  : Carlyn Maw,Tom Igoe                               //
+//  Data    : 25 Oct, 2006                                      //
+//  Versione: 1.0                                               //
+//  Note    : Codice per usare un registro a scorrimento        //
+//          : 74HC595 per contare da 0 a 255                    //
+//          :                                                   //
+//          : 2017-11-13                                        //
+//          : Tradotto da Giuseppe Masino ( qub1750ul )         //
 //****************************************************************
 
-//Pin connected to ST_CP of 74HC595
+//Pin di arduino connesso al pin ST_CP del 74HC595
 int latchPin = 8;
-//Pin connected to SH_CP of 74HC595
+//Pin di arduino connesso al pin SH_CP del 74HC595
 int clockPin = 12;
-////Pin connected to DS of 74HC595
+//Pin di arduino connesso al pin DS del 74HC595
 int dataPin = 11;
 
 void setup() {
-  //set pins to output because they are addressed in the main loop
+  //Imposta i pin come output poichè sono usati nel loop principale
   pinMode(latchPin, OUTPUT);
   pinMode(clockPin, OUTPUT);
   pinMode(dataPin, OUTPUT);
 }
 
 void loop() {
-  //count up routine
+  //routine di conteggio
   for (int j = 0; j < 256; j++) {
-    //ground latchPin and hold low for as long as you are transmitting
+    //manda a massa latchPin e mantienilo così mentre trasmetti
     digitalWrite(latchPin, LOW);
     shiftOut(dataPin, clockPin, LSBFIRST, j);
-    //return the latch pin high to signal chip that it
-    //no longer needs to listen for information
+    //imposta latchPin a HIGH per segnalare al chip
+    //che può smettere di rimanere in ascolto per altre informazioni
     digitalWrite(latchPin, HIGH);
     delay(1000);
   }
@@ -102,25 +105,25 @@ void loop() {
 [%hardbreaks]
 
 [float]
-=== Notes and Warnings
-The dataPin and clockPin must already be configured as outputs by a call to link:../../digital-io/pinmode[pinMode()].
+=== Note e Avvertimenti
+dataPin e clockPin devono essere gia configurati come output attraverso una chiamata a link:../../digital-io/pinmode[pinMode()].
 
-shiftOut is currently written to output 1 byte (8 bits) so it requires a two step operation to output values larger than 255.
+shiftOut attualmente è scritto per mandare in uscita 1 byte ( 8 bit ) per cui richiede un'operazione a due fasi per valori più grandi di 255.
 [source,arduino]
 ----
-// Do this for MSBFIRST serial
+// Fai questo per MSBFIRST
 int data = 500;
-// shift out highbyte
-shiftOut(dataPin, clock, MSBFIRST, (data >> 8));
-// shift out lowbyte
-shiftOut(dataPin, clock, MSBFIRST, data);
+// manda in uscita i bit più significativi
+shiftOut(dataPin, clock, MSBFIRST, (dati >> 8));
+// manda in uscita i bit meno significativi
+shiftOut(dataPin, clock, MSBFIRST, dati);
 
-// Or do this for LSBFIRST serial
+// Oppure questo per LSBFIRST
 data = 500;
-// shift out lowbyte
-shiftOut(dataPin, clock, LSBFIRST, data);
-// shift out highbyte
-shiftOut(dataPin, clock, LSBFIRST, (data >> 8));
+// manda in uscita i bit meno significativi
+shiftOut(dataPin, clock, LSBFIRST, dati);
+// manda in uscita i bit più significativi
+shiftOut(dataPin, clock, LSBFIRST, (dati >> 8));
 ----
 [%hardbreaks]
 
