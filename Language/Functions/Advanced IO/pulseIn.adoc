@@ -4,8 +4,7 @@ categories: [ "Functions" ]
 subCategories: [ "I/O Avanzato" ]
 ---
 
-:source-highlighter: pygments
-:pygments-style: arduino
+
 
 
 
@@ -18,11 +17,11 @@ subCategories: [ "I/O Avanzato" ]
 
 [float]
 === Descrizione
-Legge un impulso ( sia di tipo HIGH oppure LOW ) su un pin. Per esempio, se *valore* = *HIGH*, `pulseIn()` aspetta che il pin vada nello stato *HIGH*, incomincia a contare, quindi aspetta che il pin vada nello stato *LOW* e smette di contare. Restituisce la durata dell'impulso in microsecondi. Si interrompe e restituisce 0 se nessun impulso parte entro il timeout specificato.
-[%hardbreaks]
+Legge un impulso (sia di tipo HIGH oppure LOW) su un pin. Per esempio, se *valore* = *HIGH*, `pulseIn()` aspetta che il pin vada nello stato *HIGH*, incomincia a contare, quindi aspetta che il pin vada nello stato *LOW* e smette di contare. Restituisce la durata dell'impulso in microsecondi. Si interrompe e restituisce 0 se nessun impulso parte entro il timeout specificato.
 
 La temporizzazione di questa funzione è stata determinata empiricamente e probabilmente produrrà errori con gli impulsi più lunghi. Funziona sugli impulsi di lunghezza compresa tra 10 microsecondi e 3 minuti.
 [%hardbreaks]
+
 
 [float]
 === Sintassi
@@ -37,7 +36,6 @@ La temporizzazione di questa funzione è stata determinata empiricamente e proba
 `valore`: il tipo di impulso da leggere: può essere link:../../../variables/constants/constants/[HIGH] oppure link:../../../variables/constants/constants/[LOW]. (int)
 
 `timeout` (opzionale): il numero dei microsecondi in cui aspettare che l'impulso parta; Il valore predefinito è di un secondo ( unsigned long )
-
 [float]
 === Restituisce
 la durata dell'impulso ( in microsecondi ) oppure 0 se nessun impulso è partito prima del timeout ( unsigned long )
@@ -54,7 +52,6 @@ la durata dell'impulso ( in microsecondi ) oppure 0 se nessun impulso è partito
 
 [float]
 === Codice di esempio
-// Describe what the example code is all about and add relevant code   ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
 Questo programma di esempio calcola il tempo di durata di un impulso sul pin 7.
 
 [source,arduino]
@@ -69,7 +66,7 @@ void setup()
 
 void loop()
 {
-  durata = pulseIn(pin, HIGH);
+  duration = pulseIn(pin, HIGH);
 }
 ----
 [%hardbreaks]

@@ -6,10 +6,6 @@ subCategories: [ "I/O Avanzato" ]
 aliases: [ /language/functions/advanced-io/noTone/ ]
 ---
 
-:source-highlighter: pygments
-:pygments-style: arduino
-
-
 
 = noTone()
 
