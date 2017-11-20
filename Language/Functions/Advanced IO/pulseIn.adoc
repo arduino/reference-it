@@ -57,7 +57,7 @@ Questo programma di esempio calcola il tempo di durata di un impulso sul pin 7.
 [source,arduino]
 ----
 int pin = 7;
-unsigned long durata;
+unsigned long duration;
 
 void setup()
 {
