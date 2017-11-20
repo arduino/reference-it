@@ -1,7 +1,7 @@
 ---
 title: pulseInLong()
 categories: [ "Functions" ]
-subCategories: [ "Advanced I/O" ]
+subCategories: [ "I/O Avanzato" ]
 ---
 
 
@@ -17,28 +17,28 @@ subCategories: [ "Advanced I/O" ]
 
 [float]
 === Description
-Reads a pulse (either HIGH or LOW) on a pin. For example, if value is HIGH, `pulseInLong()` waits for the pin to go `HIGH`, starts timing, then waits for the pin to go `LOW` and stops timing. Returns the length of the pulse in microseconds or 0 if no complete pulse was received within the timeout.
+Legge un impulso (sia di tipo HIGH oppure LOW) su un pin. Per esempio, se *valore* = *HIGH*, `pulseInLong()` aspetta che il pin vada nello stato *HIGH*, incomincia a contare, quindi aspetta che il pin vada nello stato *LOW* e smette di contare. Restituisce la durata dell'impulso in microsecondi. Si interrompe e restituisce 0 se nessun impulso parte entro il timeout specificato.
 
-The timing of this function has been determined empirically and will probably show errors in shorter pulses. Works on pulses from 10 microseconds to 3 minutes in length. Please also note that if the pin is already high when the function is called, it will wait for the pin to go LOW and then HIGH before it starts counting. This routine can be used only if interrupts are activated. Furthermore the highest resolution is obtained with large intervals.
+La temporizzazione di questa funzione è stata determinata empiricamente e probabilmente produrrà errori con gli impulsi più lunghi. Funziona sugli impulsi di lunghezza compresa tra 10 microsecondi e 3 minuti. Nota anche che se il pin è gia nello stato *HIGH* quando la funzione viene chiamata, essa aspetterà che il pin vada nello stato *LOW* e poi *HIGH* prima di iniziare a contare. Questa routine può essere usata solo se gli interrupt sono attivati. Inoltre, la risoluzione più alta è ottenuta con intervalli lunghi.
 [%hardbreaks]
 
 
 [float]
-=== Syntax
-`pulseInLong(pin, value)`
+=== Sintassi
+`pulseInLong(pin, valore)`
 
-`pulseInLong(pin, value, timeout)`
+`pulseInLong(pin, valore, timeout)`
 
 [float]
-=== Parameters
-`pin`: the number of the pin on which you want to read the pulse. (int)
+=== Parametri
+`pin`: il numero del pin dal quale  vuoi leggere l'impulso. (int)
 
-`value`: type of pulse to read: either link:../../../variables/constants/constants/[HIGH] or link:../../../variables/constants/constants/[LOW]. (int)
+`valore`: il tipo di impulso da leggere: può essere link:../../../variables/constants/constants/[HIGH] oppure link:../../../variables/constants/constants/[LOW]. (int)
 
-`timeout` (optional): the number of microseconds to wait for the pulse to start; default is one second (unsigned long)
+`timeout` (opzionale): il numero dei microsecondi in cui aspettare che l'impulso parta; Il valore predefinito è di un secondo ( unsigned long )
 [float]
-=== Returns
-the length of the pulse (in microseconds) or 0 if no pulse started before the timeout (unsigned long)
+=== Restituisce
+la durata dell'impulso ( in microsecondi ) oppure 0 se nessun impulso è partito prima del timeout ( unsigned long )
 
 --
 // OVERVIEW SECTION ENDS
@@ -51,9 +51,9 @@ the length of the pulse (in microseconds) or 0 if no pulse started before the ti
 --
 
 [float]
-=== Example Code
+=== Codice di esempio
 // Describe what the example code is all about and add relevant code   ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
-The example calculated the time duration of a pulse on pin 7.
+Questo programma di esempio calcola il tempo di durata di un impulso sul pin 7.
 
 [source,arduino]
 ----
@@ -71,8 +71,8 @@ void loop() {
 [%hardbreaks]
 
 [float]
-=== Notes and Warnings
-This function relies on micros() so cannot be used in link:../../interrupts/nointerrupts[noInterrupts()] context.
+=== Note e Avvertimenti
+Questa funzione si basa su micros() quindi non può essere usata nel contesto di link:../../interrupts/nointerrupts[noInterrupts()].
 
 --
 // HOW TO USE SECTION ENDS
