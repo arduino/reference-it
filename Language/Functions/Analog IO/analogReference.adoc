@@ -16,29 +16,30 @@ subCategories: [ "Analog I/O" ]
 --
 
 [float]
-=== Description
-Configures the reference voltage used for analog input (i.e. the value used as the top of the input range). The options are:
+=== Descrizione
+Configura la tensione di riferimento usata per gli input analogici ( il valore usato come massima tensione in ingresso ). Le opzioni sono:
 
-* DEFAULT: the default analog reference of 5 volts (on 5V Arduino boards) or 3.3 volts (on 3.3V Arduino boards)
-* INTERNAL: an built-in reference, equal to 1.1 volts on the ATmega168 or ATmega328P and 2.56 volts on the ATmega8 (not available on the Arduino Mega)
-* INTERNAL1V1: a built-in 1.1V reference (Arduino Mega only)
-* INTERNAL2V56: a built-in 2.56V reference (Arduino Mega only)
-* EXTERNAL: the voltage applied to the AREF pin (0 to 5V only) is used as the reference.
+* DEFAULT: il riferimento di default di 5 volt ( sulle schede Arduino a 5V ) o 3.3 volt ( sulle schede Arduino a 3.3V )
+* INTERNAL: un riferimento integrato, equivalente a 1.1 volt sull' ATmega168 o ATmega328P e 2.56 volt sull' ATmega8 ( non disponibile sull'Arduino Mega )
+* INTERNAL1V1: un riferimento integrato a 1.1V ( solo Arduino Mega )
+* INTERNAL2V56: un riferimento integrato a 2.56V ( solo Arduino Mega )
+* EXTERNAL: la tensione applicata al pin AREF ( solo da 0 a 5V ) viene usata come riferimento
+
 [%hardbreaks]
 
 
 [float]
-=== Syntax
-`analogReference(type)`
+=== Sintassi
+`analogReference( tipo )`
 
 
 [float]
-=== Parameters
-`type`: which type of reference to use (DEFAULT, INTERNAL, INTERNAL1V1, INTERNAL2V56, or EXTERNAL).
+=== Parametri
+`tipo`: quale tipo di riferimento usare (DEFAULT, INTERNAL, INTERNAL1V1, INTERNAL2V56, o EXTERNAL).
 
 [float]
-=== Returns
-Nothing
+=== Restituisce
+Nulla
 
 --
 // OVERVIEW SECTION ENDS
@@ -51,12 +52,12 @@ Nothing
 --
 
 [float]
-=== Notes and Warnings
-After changing the analog reference, the first few readings from `analogRead()` may not be accurate.
+=== Note e Avvertimenti
+Dopo aver cambiato il riferimento, le prime letture da `analogRead()` potrebbero non essere accurate.
 
-*Don't use anything less than 0V or more than 5V for external reference voltage on the AREF pin! If you're using an external reference on the AREF pin, you must set the analog reference to EXTERNAL before calling `analogRead()`.* Otherwise, you will short together the active reference voltage (internally generated) and the AREF pin, possibly damaging the microcontroller on your Arduino board.
+*Non usare niente di inferiore a 0V o maggiore di 5V per la tensione di riferimento esterna sul pin AREF! Se stai usando un riferimento esterno sul pin AREF, devi impostare il riferimento a EXTERNAL prima di chiamare `analogRead()`.* Altrimenti, metterai in corto la tensione di riferimeto attiva ( generata internamente ) e il pin AREF, con la possibilità di danneggiare il microcontrollore della tua scheda Arduino.
 
-Alternatively, you can connect the external reference voltage to the AREF pin through a 5K resistor, allowing you to switch between external and internal reference voltages. Note that the resistor will alter the voltage that gets used as the reference because there is an internal 32K resistor on the AREF pin. The two act as a voltage divider, so, for example, 2.5V applied through the resistor will yield 2.5 * 32 / (32 + 5) = ~2.2V at the AREF pin.
+Alternativamente, puoi collegare la tensione di riferimento esterna al pin AREF attraverso un resitore da 5K, permettendoti di cambiare tra riferimento esterno ed interno. Nota che il resistore altererà la tensione che viene usata come riferimento poichè c'e un resistore interno da 32K sul pin AREF. I due agiscono come un partitore di tensione, quindi, per esempio, 2.5V applicati attraverso un resitore comporteranno 2.5 * 32 / (32 + 5) = ~2.2V sul pin AREF.
 [%hardbreaks]
 
 --
@@ -68,10 +69,10 @@ Alternatively, you can connect the external reference voltage to the AREF pin th
 --
 
 [float]
-=== See also
+=== Vedi anche
 
 [role="example"]
-* #EXAMPLE# http://arduino.cc/en/Tutorial/AnalogInputPins[Description of analog input pins]
+* #ESEMPIO# http://arduino.cc/en/Tutorial/AnalogInputPins[Descrizione di pin di input analogico]
 
 --
 // SEE ALSO SECTION ENDS
