@@ -1,7 +1,7 @@
 ---
 title: analogWrite()
 categories: [ "Functions" ]
-subCategories: [ "Analog I/O" ]
+subCategories: [ "I/O Analogico" ]
 ---
 
 
@@ -23,8 +23,8 @@ Dopo una chiamata a `analogWrite()`, il pin genererà un'onda quadra costante co
 La frequenza del segnale PWM su molti pin è approssimativamente 490 Hz.
 Sulla Uno e schede simili, i pin 5 e 6 hanno una frequenza di circa 980 Hz.
 [%hardbreaks]
-Sulla maggior parte delle schede Arduino ( quelle con ATmega168 o ATmega328P ), questa funzione lavora sui pin 3, 5, 6, 9, 10, e 11.
-Sull'Arduino Mega, lavora sui pin dal 2 al 13 e dal 44 al 46.
+Sulla maggior parte delle schede Arduino ( quelle con ATmega168 o ATmega328P ), funziona sui pin 3, 5, 6, 9, 10, e 11.
+Sull'Arduino Mega, funziona sui pin dal 2 al 13 e dal 44 al 46.
 Le schede Arduino più vecchie con un ATmega8 supportano `analogWrite()` solo sui pin 9, 10, e 11.
 Arduino DUE supporta `analogWrite()` sui pin da 2 a 13, oltre che sui pin DAC0 e DAC1.
 Diversamente dai pin PWM, DAC0 e DAC1 sono convertitori digitale-analogico, e si comportano come veri output analogici.
@@ -39,14 +39,14 @@ La funzione `analogWrite` non ha nulla a che vedere con i pin analogici o la fun
 
 
 [float]
-=== Parameters
+=== Parametri
 `pin`: Il pin sul quale scrivere. Tipi di dato permessi: int. +
 `valore`: il duty cycle: tra 0 ( sempre spento ) e 255 ( sempre acceso ). Tipi di dato permessi: int
 
 
 [float]
-=== Returns
-Nothing
+=== Restituisce
+Nulla
 
 --
 // OVERVIEW SECTION ENDS
