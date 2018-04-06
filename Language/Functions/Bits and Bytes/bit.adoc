@@ -1,7 +1,7 @@
 ---
 title: bit()
 categories: [ "Functions" ]
-subCategories: [ "Bits and Bytes" ]
+subCategories: [ "Bit e Byte" ]
 ---
 
 
@@ -16,23 +16,23 @@ subCategories: [ "Bits and Bytes" ]
 --
 
 [float]
-=== Description
-Computes the value of the specified bit (bit 0 is 1, bit 1 is 2, bit 2 is 4, etc.).
+=== Descrizione
+Computa il valore del bit specificato ( il bit 0 è 1, il bit 1 è 2, il bit 2 è 4, ecc... ).
 [%hardbreaks]
 
 
 [float]
-=== Syntax
+=== Sintassi
 `bit(n)`
 
 
 [float]
-=== Parameters
-`n`: the bit whose value to compute
+=== Parametri
+`n`: il bit di cui computare il valore
 
 [float]
-=== Returns
-The value of the bit.
+=== Restituisce
+Il valore del bit.
 
 --
 // OVERVIEW SECTION ENDS
