@@ -17,7 +17,7 @@ subCategories: [ "Bit e Byte" ]
 
 [float]
 === Descrizione
-Computa il valore del bit specificato ( il bit 0 è 1, il bit 1 è 2, il bit 2 è 4, ecc... ).
+Calcola il valore del bit specificato ( il bit 0 è 1, il bit 1 è 2, il bit 2 è 4, ecc... ).
 [%hardbreaks]
 
 
@@ -28,7 +28,7 @@ Computa il valore del bit specificato ( il bit 0 è 1, il bit 1 è 2, il bit 2 �
 
 [float]
 === Parametri
-`n`: il bit di cui computare il valore
+`n`: il bit di cui calcolare il valore
 
 [float]
 === Restituisce
