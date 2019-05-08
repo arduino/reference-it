@@ -16,25 +16,25 @@ subCategories: [ "Characters" ]
 --
 
 [float]
-=== Description
-Analyse if a char is alpha (that is a letter). Returns true if thisChar contains a letter. 
+=== Descrizione
+Controlla se un char è una lettera dell'alfabeto. Restituisce true se thisChar contiene una lettera.  
 [%hardbreaks]
 
 
 [float]
-=== Syntax
+=== Sintassi
 [source,arduino]
 ----
 isAlpha(thisChar)
 ----
 
 [float]
-=== Parameters
-`thisChar`: variable. *Allowed data types:* char
+=== Parametri
+`thisChar`: variabile. *Tipi di dati permessi:* char
 
 [float]
-=== Returns
-`true`: if thisChar is alpha.
+=== Restituisce
+`true`: se thisChar contiene una lettera dell'alfabeto.
 
 --
 // OVERVIEW SECTION ENDS
@@ -46,17 +46,17 @@ isAlpha(thisChar)
 --
 
 [float]
-=== Example Code
+=== Codice di Esempio
 
 [source,arduino]
 ----
-if (isAlpha(this))      // tests if this is a letter
+if (isAlpha(this))      // controlla se this è una lettera
 {
-	Serial.println("The character is a letter");
+	Serial.println("Questo carattere è una lettera");
 }
 else
 {
-	Serial.println("The character is not a letter");
+	Serial.println("Questo carattere non è una lettera");
 }
 
 ----
@@ -70,13 +70,13 @@ else
 --
 
 [float]
-=== See also
+=== Vedi anche
 
 [role="language"]
-* #LANGUAGE#  link:../../../variables/data-types/char[char]
-* #LANGUAGE#  link:../../../structure/control-structure/if[if (conditional operators)]
-* #LANGUAGE#  link:../../../structure/control-structure/while[while (conditional operators)]
-* #LANGUAGE# link:../../communication/serial/read[read()]
+* #LINGUAGGIO#  link:../../../variables/data-types/char[char]
+* #LINGUAGGIO#  link:../../../structure/control-structure/if[if (conditional operators)]
+* #LINGUAGGIO#  link:../../../structure/control-structure/while[while (conditional operators)]
+* #LINGUAGGIO# link:../../communication/serial/read[read()]
 
 --
 // SEE ALSO SECTION ENDS
