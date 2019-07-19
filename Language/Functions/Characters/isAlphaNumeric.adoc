@@ -1,7 +1,7 @@
 ---
 title: "isAlphaNumeric()"
-categories: [ "Functions" ]
-subCategories: [ "Characters" ]
+categories: [ "Funzioni" ]
+subCategories: [ "Caratteri" ]
 ---
 
 
@@ -16,24 +16,24 @@ subCategories: [ "Characters" ]
 --
 
 [float]
-=== Description
-Analyse if a char is alphanumeric (that is a letter or a numbers). Returns true if thisChar contains either a number or a letter. 
+=== Descrizione
+Analizza se un carattere è alfanumerico (che sia una lettera o un numero). Restituisce True se thisChar contiene o un carattere o una lettera.
 [%hardbreaks]
 
 
 [float]
-=== Syntax
+=== Sintassi
 [source,arduino]
 ----
 `isAlphaNumeric(thisChar)`
 ----
 
 [float]
-=== Parameters
+=== Parametri
 `thisChar`: variable. *Allowed data types:* char
 
 [float]
-=== Returns
+=== Restituisce
 `true`: if thisChar is alphanumeric.
 
 --
@@ -50,7 +50,7 @@ Analyse if a char is alphanumeric (that is a letter or a numbers). Returns true 
 
 [source,arduino]
 ----
-if (isAlphaNumeric(this))      // tests if this isa letter or a number
+if (isAlphaNumeric(this))      // Testa se è una lettera o un numero
 {
 	Serial.println("The character is alphanumeric");
 }
