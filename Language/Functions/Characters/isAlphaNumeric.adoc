@@ -30,11 +30,11 @@ Analizza se un carattere è alfanumerico (che sia una lettera o un numero). Rest
 
 [float]
 === Parametri
-`thisChar`: variable. *Allowed data types:* char
+`thisChar`: variabile. *Tipi di dati consentiti:* char
 
 [float]
 === Restituisce
-`true`: if thisChar is alphanumeric.
+`true`: se thisChar è alfanumerico
 
 --
 // OVERVIEW SECTION ENDS
