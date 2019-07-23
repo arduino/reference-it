@@ -46,7 +46,7 @@ Analizza se un carattere è alfanumerico (che sia una lettera o un numero). Rest
 --
 
 [float]
-=== Example Code
+=== Codice di Esempio
 
 [source,arduino]
 ----
@@ -73,10 +73,10 @@ else
 === See also
 
 [role="language"]
-* #LANGUAGE#  link:../../../variables/data-types/char[char]
-* #LANGUAGE#  link:../../../structure/control-structure/if[if (conditional operators)]
-* #LANGUAGE#  link:../../../structure/control-structure/while[while (conditional operators)]
-* #LANGUAGE# link:../../communication/serial/read[read()]
+* #LINGUAGGIO#  link:../../../variables/data-types/char[char]
+* #LINGUAGGIO#  link:../../../structure/control-structure/if[if (conditional operators)]
+* #LINGUAGGIO#  link:../../../structure/control-structure/while[while (conditional operators)]
+* #LINGUAGGIO# link:../../communication/serial/read[read()]
 
 --
 // SEE ALSO SECTION ENDS
