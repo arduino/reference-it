@@ -31,7 +31,7 @@ Quando suggerisci una modifica, perfavore segui le linee guida descritte nei Ref
 == Inviare una pull request
 Siamo lieti che tu voglia contribuire alla Arduino Reference: questo è il modo migliore di aiutare la community.
 
-Il tuo contributo aggiunge o modifica codice esistente oppure descrizioni complete, perfavore fai sempre riferimento ad una Issue esistente oppure aprine una nuova prima di contribuire.
+Il tuo contributo aggiunge o modifica codice esistente oppure descrizioni complete, per favore fai sempre riferimento ad una Issue esistente oppure aprine una nuova prima di contribuire.
 
 Tieni presente che il tuo contributo alla Arduino Reference è sotto una licenza Creative Commons Attribution-Share Alike 3.0 . vedi https://creativecommons.org/licenses/by-sa/3.0/
 
