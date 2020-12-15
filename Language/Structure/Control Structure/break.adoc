@@ -18,7 +18,7 @@ subCategories: [ "Control Structure" ]
 [float]
 === Description
 [%hardbreaks]
-`break` is used to exit from a link:../for[for], link:../while[while] or link:../dowhile[do...while] loop, bypassing the normal loop condition. It is also used to exit from a link:../switchcase[switch case] statement.
+`break` è usata per uscire da costrutti link:../for[for], link:../while[while] o link:../dowhile[do...while], scavalcando le ordinarie condizioni imposte dal costrutto. Viene anche utilizzata per uscire dal costrutto link:../switchcase[switch case].
 [%hardbreaks]
 
 --
@@ -31,15 +31,15 @@ subCategories: [ "Control Structure" ]
 [#howtouse]
 --
 [float]
-=== Example Code
-In the following code, the control exits the `for` loop when the sensor value exceeds the threshold.
+=== Codice di esempio
+Nel codice che segue, il controllo esce dal ciclo `for` quando il valore del sensore supera la soglia.
 [source,arduino]
 ----
 for (x = 0; x < 255; x ++)
 {
     analogWrite(PWMpin, x);
-    sens = analogRead(sensorPin);
-    if (sens > threshold){      // bail out on sensor detect
+    sensore = analogRead(sensorPin);
+    if (sensore > soglia){      // bail out on sensor detect
        x = 0;
        break;
     }
