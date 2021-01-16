@@ -38,7 +38,7 @@ Notare che le costanti `true` and `false` sono scritte in minuscolo, non come HI
 
 [float]
 == Definizione dei livelli dei Pin: HIGH e LOW
-Quando bisogna leggere o scrivere un pin digiale ci sono solo due valori possibili che un pin può assumere : `HIGH` e `LOW`.
+Quando bisogna leggere o scrivere un pin digitale ci sono solo due valori possibili che un pin può assumere : `HIGH` e `LOW`.
 
 [float]
 === HIGH
