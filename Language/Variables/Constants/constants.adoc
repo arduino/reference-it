@@ -16,39 +16,40 @@ subCategories: [ "Constants" ]
 --
 
 [float]
-== Description
-Constants are predefined expressions in the Arduino language. They are used to make the programs easier to read. We classify constants in groups:
+== Descrizione
+Le constanti in Arduino sono espressioni predefinite. Vengono usate per permettere una lettura più agile del codice. Vengono classificate in gruppi:
 
 [float]
-== Defining Logical Levels: true and false (Boolean Constants)
-There are two constants used to represent truth and falsity in the Arduino language: `true`, and `false`.
+== Definizione dei livelli logici: true e false (Costanti Booleane) 
+Ci sono due costanti utilizzate per rappresentare Vero e Falso nel linguaggio Arduino: `true`, e `false`.
 
 [float]
 === false
-`false` is the easier of the two to define. false is defined as 0 (zero).
+`false` è il modo migliore delle due opzioni per la definizione. false è definitno come 0 (zero) .
 [%hardbreaks]
 
 [float]
 === true
-`true` is often said to be defined as 1, which is correct, but true has a wider definition. Any integer which is non-zero is true, in a Boolean sense. So -1, 2 and -200 are all defined as true, too, in a Boolean sense.
+`true` è spesso e correttamente definito come 1, ma true ha una definizione più ampia. Qualsiasi intero che non è zero (0) è `true` (vero) in ambito booleano. quindi -1, 2 e -200 sono tutti dichiarabili come `true` (vero).
 [%hardbreaks]
 
-Note that the `true` and `false` constants are typed in lowercase unlike `HIGH`, `LOW`, `INPUT`, and `OUTPUT`.
+Notare che le costanti `true` and `false` sono scritte in minuscolo, non come HIGH`, `LOW`, `INPUT`, e `OUTPUT`.
 [%hardbreaks]
 
 [float]
-== Defining Pin Levels: HIGH and LOW
-When reading or writing to a digital pin there are only two possible values a pin can take/be-set-to: `HIGH` and `LOW`.
+== Definizione dei livelli dei Pin: HIGH e LOW
+Quando bisogna leggere o scrivere un pin digiale ci sono solo due valori possibili che un pin può assumere : `HIGH` e `LOW`.
 
 [float]
 === HIGH
-The meaning of `HIGH` (in reference to a pin) is somewhat different depending on whether a pin is set to an `INPUT` or `OUTPUT`. When a pin is configured as an `INPUT` with link:../../../functions/digital-io/pinmode[pinMode()], and read with link:../../../functions/digital-io/digitalread[digitalRead()], the Arduino (ATmega) will report `HIGH` if:
+Il significato di `HIGH` (riferito ad un pin) è in qualche modo differente se il pin è impostato come `INPUT` o `OUTPUT`. quando il pin è impostato come  `INPUT`  link:../../../functions/digital-io/pinmode[pinMode()], e read with link:../../../functions/digital-io/digitalread[digitalRead()],  Arduino (ATmega) riporterà `HIGH` se:
 
-  - a voltage greater than 3.0V is present at the pin (5V boards)
-  - a voltage greater than 2.0V volts is present at the pin (3.3V boards)
+  - la tensione presente nel pin è maggiore di  3.0V (su una scheda che funziona a 5 Volt )
+  - la tensione presente nel pin è maggiore di  2.0V (su una scheda che funziona a 3.3 Volt )
 [%hardbreaks]
 
-A pin may also be configured as an INPUT with `pinMode()`, and subsequently made HIGH with link:../../../functions/digital-io/digitalwrite[digitalWrite()]. This will enable the internal 20K pullup resistors, which will _pull up_ the input pin to a `HIGH` reading unless it is pulled `LOW` by external circuitry. This is how `INPUT_PULLUP` works and is described below in more detail.
+Un pin può essere impostato come un INPUT usando `pinMode()`, e successivamente impostato come HIGH usando link:../../../functions/digital-io/digitalwrite[digitalWrite()]. Questo comando abilita la resistenza di pullup da 20K, che rimarrà dale fino a quando non verrà impostata nuovamente su `LOW` da un circuito esterno. Questo è come  `INPUT_PULLUP` funziona, ed è descritto di seguito in dettaglio.
+
 [%hardbreaks]
 
 When a pin is configured to OUTPUT with `pinMode()`, and set to `HIGH` with `digitalWrite()`, the pin is at:
