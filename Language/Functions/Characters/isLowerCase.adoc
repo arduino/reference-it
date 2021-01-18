@@ -1,11 +1,8 @@
 ﻿---
 title: "isLowerCase()"
-categories: [ "Functions" ]
-subCategories: [ "Characters" ]
+categories: [ "Funzioni" ]
+subCategories: [ "Caratteri" ]
 ---
-
-
-
 
 
 = isLowerCase(thisChar)
@@ -16,25 +13,25 @@ subCategories: [ "Characters" ]
 --
 
 [float]
-=== Description
-Analyse if a char is lower case (that is a letter in lower case). Returns true if thisChar contains a letter in lower case. 
+=== Descrizione
+Analizza se il carattere è minuscolo. Restituisce 'true' se thisChar contieene un carattere in minuscolo.
 [%hardbreaks]
 
 
 [float]
-=== Syntax
+=== Sintassi
 [source,arduino]
 ----
 `isLowerCase(thisChar)`
 ----
 
 [float]
-=== Parameters
-`thisChar`: variable. *Allowed data types:* char
+=== Parametri
+`thisChar`: variabile. *Tipi di dati accettati:* char
 
 [float]
-=== Returns
-`true`: if thisChar is lower case.
+=== Restituisce
+`true`: se thisChar è minuscolo.
 
 --
 // OVERVIEW SECTION ENDS
@@ -46,7 +43,7 @@ Analyse if a char is lower case (that is a letter in lower case). Returns true i
 --
 
 [float]
-=== Example Code
+=== Codice di esempio
 
 [source,arduino]
 ----
@@ -70,7 +67,7 @@ else
 --
 
 [float]
-=== See also
+=== Vedi anche
 
 [role="language"]
 * #LANGUAGE#  link:../../../variables/data-types/char[char]

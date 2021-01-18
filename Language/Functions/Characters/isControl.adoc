@@ -1,7 +1,7 @@
 ﻿---
 title: "isControl()"
-categories: [ "Functions" ]
-subCategories: [ "Characters" ]
+categories: [ "Funzioni" ]
+subCategories: [ "Caratteri" ]
 ---
 
 
@@ -16,25 +16,25 @@ subCategories: [ "Characters" ]
 --
 
 [float]
-=== Description
-Analyse if a char is a control character. Returns true if thisChar is a control character. 
+=== Descrizione
+Analizza se un carattere è un carattere di controllo. Restituisce 'true' se thisChar è un carattere di controllo.
 [%hardbreaks]
 
 
 [float]
-=== Syntax
+=== Sintassi
 [source,arduino]
 ----
 `isControl(thisChar)`
 ----
 
 [float]
-=== Parameters
-`thisChar`: variable. *Allowed data types:* char
+=== Parametri
+`thisChar`: variabile. *Tipi di dato accettati:* char
 
 [float]
-=== Returns
-`true`: if thisChar is a control character.
+=== Restituisce
+`true`: se thisChar è un carattere di controllo.
 
 --
 // OVERVIEW SECTION ENDS
@@ -46,7 +46,7 @@ Analyse if a char is a control character. Returns true if thisChar is a control 
 --
 
 [float]
-=== Example Code
+=== Codice di esempio
 
 [source,arduino]
 ----
@@ -70,7 +70,7 @@ else
 --
 
 [float]
-=== See also
+=== Vedi anche
 
 [role="language"]
 * #LANGUAGE#  link:../../../variables/data-types/char[char]

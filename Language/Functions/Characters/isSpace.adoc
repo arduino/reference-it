@@ -1,7 +1,7 @@
 ﻿---
 title: "isSpace()"
-categories: [ "Functions" ]
-subCategories: [ "Characters" ]
+categories: [ "Funzioni" ]
+subCategories: [ "Caratteri" ]
 ---
 
 
@@ -16,25 +16,25 @@ subCategories: [ "Characters" ]
 --
 
 [float]
-=== Description
-Analyse if a char is the space character. Returns true if thisChar contains the space character. 
+=== Descrizione
+Analizza se un carattere è uno spazio. Restituisce 'true' se thisChar contiene uno spazio. 
 [%hardbreaks]
 
 
 [float]
-=== Syntax
+=== Sintassi
 [source,arduino]
 ----
 `isSpace(thisChar)`
 ----
 
 [float]
-=== Parameters
-`thisChar`: variable. *Allowed data types:* char
+=== Parametri
+`thisChar`: variabile. *Tipi di dato accettati:* char
 
 [float]
-=== Returns
-`true`: if thisChar is a space.
+=== Restituisce
+`true`: se thisChar è uno spazio.
 
 --
 // OVERVIEW SECTION ENDS
@@ -46,7 +46,7 @@ Analyse if a char is the space character. Returns true if thisChar contains the 
 --
 
 [float]
-=== Example Code
+=== Codice di esempio
 
 [source,arduino]
 ----
@@ -70,7 +70,7 @@ else
 --
 
 [float]
-=== See also
+=== Vedi anche
 
 [role="language"]
 * #LANGUAGE#  link:../../../variables/data-types/char[char]

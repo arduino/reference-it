@@ -1,11 +1,8 @@
 ---
-title: constants
-categories: [ "Variables" ]
-subCategories: [ "Constants" ]
+title: costanti
+categories: [ "Variabili" ]
+subCategories: [ "Costanti" ]
 ---
-
-
-
 
 
 = Constants
@@ -76,7 +73,7 @@ When a pin is configured to `OUTPUT` with `pinMode()`, and set to `LOW` with `di
 I pin digitali possono essere usati come `INPUT`, `INPUT_PULLUP`, or `OUTPUT`. Cambiando i pin usando  `pinMode()` viene cambiato il comportamento elettrico.
 
 [float]
-=== Pin configuarti come INPUT
+=== Pin configurati come INPUT
 I pin delle schede Arduino basate su ATMEGA, configurate come `INPUT` usando `pinMode()`, sono in uno stato di _alta impedenza_. I Pin configurati come `INPUT` hanno pochissime necessità dal circuito che stanno campionando, equivalente ad una serie di resistenze da 100 Megohms davanti al pin. Questa condizione risulta utile quando bisogna leggere un sensore.
 
 [%hardbreaks]
@@ -136,7 +133,7 @@ La maggior parte delle schede Arduino ha un pin collegato a un LED integrato in 
 --
 
 [float]
-=== See also
+=== Vedi anche
 
 [role="language"]
 
