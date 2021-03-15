@@ -15,7 +15,7 @@ subCategories: [ "Zero, Due & MKR Family" ]
 --
 
 [float]
-=== Description
+=== Descrizione
 `analogWriteResolution()` is an extension of the Analog API for the Arduino Due.
 
 `analogWriteResolution()` sets the resolution of the `analogWrite()` function. It defaults to 8 bits (values between 0-255) for backward compatibility with AVR based boards.
@@ -46,16 +46,16 @@ By setting the write resolution to 12 bits, you can use `analogWrite()` with val
 
 
 [float]
-=== Syntax
+=== Sintassi
 `analogWriteResolution(bits)`
 
 
 [float]
-=== Parameters
+=== Parametri
 `bits`: determines the resolution (in bits) of the values used in the `analogWrite()` function. The value can range from 1 to 32. If you choose a resolution higher or lower than your board's hardware capabilities, the value used in `analogWrite()` will be either truncated if it's too high or padded with zeros if it's too low. See the note below for details.
 
 [float]
-=== Returns
+=== Restituisce
 Nothing
 
 --

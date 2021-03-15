@@ -16,21 +16,21 @@ subCategories: [ "Math" ]
 --
 
 [float]
-=== Description
+=== Descrizione
 Calculates the absolute value of a number.
 [%hardbreaks]
 
 
 [float]
-=== Syntax
+=== Sintassi
 `abs(x)`
 
 [float]
-=== Parameters
+=== Parametri
 `x`: the number
 
 [float]
-=== Returns
+=== Restituisce
 `x`: if x is greater than or equal to 0.
 
 `-x`: if x is less than 0.

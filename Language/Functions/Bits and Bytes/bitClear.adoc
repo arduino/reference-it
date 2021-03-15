@@ -22,7 +22,7 @@ Resetta ( imposta a 0 ) un bit di una variabile numerica.
 
 
 [float]
-=== Sintasi
+=== Sintassi
 `bitClear( var, n )`
 
 

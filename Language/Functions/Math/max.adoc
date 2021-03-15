@@ -16,23 +16,23 @@ subCategories: [ "Math" ]
 --
 
 [float]
-=== Description
+=== Descrizione
 Calculates the maximum of two numbers.
 [%hardbreaks]
 
 
 [float]
-=== Syntax
+=== Sintassi
 `max(x, y)`
 
 
 [float]
-=== Parameters
+=== Parametri
 `x`: the first number, any data type
 `y`: the second number, any data type
 
 [float]
-=== Returns
+=== Restituisce
 The larger of the two parameter values.
 
 --

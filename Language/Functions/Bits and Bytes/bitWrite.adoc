@@ -1,7 +1,7 @@
 ---
 title: bitWrite()
 categories: [ "Functions" ]
-subCategories: [ "Bits and Bytes" ]
+subCategories: [ "Bit e Byte" ]
 ---
 
 
@@ -16,18 +16,18 @@ subCategories: [ "Bits and Bytes" ]
 --
 
 [float]
-=== Description
+=== Descrizione
 Writes a bit of a numeric variable.
 [%hardbreaks]
 
 
 [float]
-=== Syntax
+=== Sintassi
 `bitWrite(x, n, b)`
 
 
 [float]
-=== Parameters
+=== Parametri
 `x`: the numeric variable to which to write
 
 `n`: which bit of the number to write, starting at 0 for the least-significant (rightmost) bit
@@ -35,8 +35,8 @@ Writes a bit of a numeric variable.
 `b`: the value to write to the bit (0 or 1)
 
 [float]
-=== Returns
-Nothing
+=== Restituisce
+Nulla
 
 --
 // OVERVIEW SECTION ENDS

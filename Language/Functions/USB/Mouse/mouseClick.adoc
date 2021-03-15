@@ -13,7 +13,7 @@ title: Mouse.click()
 --
 
 [float]
-=== Description
+=== Descrizione
 Sends a momentary click to the computer at the location of the cursor. This is the same as pressing and immediately releasing the mouse button.
 
 `Mouse.click()` defaults to the left mouse button.
@@ -21,13 +21,13 @@ Sends a momentary click to the computer at the location of the cursor. This is t
 
 
 [float]
-=== Syntax
+=== Sintassi
 `Mouse.click();` +
 `Mouse.click(button);`
 
 
 [float]
-=== Parameters
+=== Parametri
 `button`: which mouse button to press - `char`
 
 * `MOUSE_LEFT` (default)
@@ -35,7 +35,7 @@ Sends a momentary click to the computer at the location of the cursor. This is t
 * `MOUSE_MIDDLE`
 
 [float]
-=== Returns
+=== Restituisce
 Nothing
 
 --

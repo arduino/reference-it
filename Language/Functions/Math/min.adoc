@@ -16,24 +16,24 @@ subCategories: [ "Math" ]
 --
 
 [float]
-=== Description
+=== Descrizione
 Calculates the minimum of two numbers.
 [%hardbreaks]
 
 
 [float]
-=== Syntax
+=== Sintassi
 `min(x, y)`
 
 
 [float]
-=== Parameters
+=== Parametri
 `x`: the first number, any data type
 
 `y`: the second number, any data type
 
 [float]
-=== Returns
+=== Restituisce
 The smaller of the two numbers.
 
 --

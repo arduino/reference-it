@@ -16,25 +16,25 @@ subCategories: [ "Random Numbers" ]
 --
 
 [float]
-=== Description
+=== Descrizione
 The random function generates pseudo-random numbers.
 [%hardbreaks]
 
 
 [float]
-=== Syntax
+=== Sintassi
 `random(max)` +
 `random(min, max)`
 
 
 [float]
-=== Parameters
+=== Parametri
 `min` - lower bound of the random value, inclusive (optional)
 
 `max` - upper bound of the random value, exclusive
 
 [float]
-=== Returns
+=== Restituisce
 A random number between min and max-1 (`long`) .
 
 --

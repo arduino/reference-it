@@ -16,7 +16,7 @@ subCategories: [ "Digital I/O" ]
 --
 
 [float]
-=== Description
+=== Descrizione
 Write a `HIGH` or a `LOW` value to a digital pin.
 
 If the pin has been configured as an `OUTPUT` with `pinMode()`, its voltage will be set to the corresponding value: 5V (or 3.3V on 3.3V boards) for `HIGH`, 0V (ground) for `LOW`.
@@ -29,18 +29,18 @@ If you do not set the `pinMode()` to `OUTPUT`, and connect an LED to a pin, when
 [%hardbreaks]
 
 [float]
-=== Syntax
+=== Sintassi
 `digitalWrite(pin, value)`
 
 
 [float]
-=== Parameters
+=== Parametri
 `pin`: the pin number
 
 `value`: `HIGH` or `LOW`
 
 [float]
-=== Returns
+=== Restituisce
 Nothing
 
 --

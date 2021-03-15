@@ -13,25 +13,25 @@ title: Mouse.move()
 --
 
 [float]
-=== Description
+=== Descrizione
 Moves the cursor on a connected computer. The motion onscreen is always relative to the cursor's current location. Before using `Mouse.move()` you must call link:../mousebegin[Mouse.begin()]
 [%hardbreaks]
 
 
 [float]
-=== Syntax
+=== Sintassi
 `Mouse.move(xVal, yPos, wheel);`
 
 
 [float]
-=== Parameters
+=== Parametri
 `xVal`: amount to move along the x-axis - `signed char`
 
 `yVal`: amount to move along the y-axis - `signed char`
 
 `wheel`: amount to move scroll wheel - `signed char`
 [float]
-=== Returns
+=== Restituisce
 Nothing
 
 --

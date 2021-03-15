@@ -16,22 +16,22 @@ subCategories: [ "Time" ]
 --
 
 [float]
-=== Description
+=== Descrizione
 Returns the number of milliseconds since the Arduino board began running the current program. This number will overflow (go back to zero), after approximately 50 days.
 [%hardbreaks]
 
 
 [float]
-=== Syntax
+=== Sintassi
 `time = millis()`
 
 
 [float]
-=== Parameters
+=== Parametri
 Nothing
 
 [float]
-=== Returns
+=== Restituisce
 Number of milliseconds since the program started (unsigned long)
 
 --

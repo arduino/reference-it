@@ -13,22 +13,22 @@ title: Keyboard.releaseAll()
 --
 
 [float]
-=== Description
+=== Descrizione
 Lets go of all keys currently pressed. See link:../keyboardpress[Keyboard.press()] for additional information.
 [%hardbreaks]
 
 
 [float]
-=== Syntax
+=== Sintassi
 `Keyboard.releaseAll()`
 
 
 [float]
-=== Parameters
+=== Parametri
 Nothing
 
 [float]
-=== Returns
+=== Restituisce
 Nothing
 
 --

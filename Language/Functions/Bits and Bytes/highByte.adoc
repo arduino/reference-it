@@ -1,7 +1,7 @@
 ---
 title: highByte()
 categories: [ "Functions" ]
-subCategories: [ "Bits and Bytes" ]
+subCategories: [ "Bit e Byte" ]
 ---
 
 
@@ -16,22 +16,22 @@ subCategories: [ "Bits and Bytes" ]
 --
 
 [float]
-=== Description
+=== Descrizione
 Extracts the high-order (leftmost) byte of a word (or the second lowest byte of a larger data type).
 [%hardbreaks]
 
 
 [float]
-=== Syntax
+=== Sintassi
 `highByte(x)`
 
 
 [float]
-=== Parameters
+=== Parametri
 `x`: a value of any type
 
 [float]
-=== Returns
+=== Restituisce
 byte
 
 --

@@ -24,7 +24,7 @@ Restituisce 'true' se thisChar contiene uno spazio vuoto.
 
 
 [float]
-=== Syntax
+=== Sintassi
 [source,arduino]
 ----
 `isWhitespace(thisChar)`

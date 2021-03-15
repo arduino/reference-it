@@ -16,22 +16,22 @@ subCategories: [ "Time" ]
 --
 
 [float]
-=== Description
+=== Descrizione
 Returns the number of microseconds since the Arduino board began running the current program. This number will overflow (go back to zero), after approximately 70 minutes. On 16 MHz Arduino boards (e.g. Duemilanove and Nano), this function has a resolution of four microseconds (i.e. the value returned is always a multiple of four). On 8 MHz Arduino boards (e.g. the LilyPad), this function has a resolution of eight microseconds.
 [%hardbreaks]
 
 
 [float]
-=== Syntax
+=== Sintassi
 `time = micros()`
 
 
 [float]
-=== Parameters
+=== Parametri
 Nothing
 
 [float]
-=== Returns
+=== Restituisce
 Returns the number of microseconds since the Arduino board began running the current program.(unsigned long)
 
 --

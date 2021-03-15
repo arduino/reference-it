@@ -16,24 +16,24 @@ subCategories: [ "Math" ]
 --
 
 [float]
-=== Description
+=== Descrizione
 Calculates the value of a number raised to a power. `Pow()` can be used to raise a number to a fractional power. This is useful for generating exponential mapping of values or curves.
 [%hardbreaks]
 
 
 [float]
-=== Syntax
+=== Sintassi
 `pow(base, exponent)`
 
 
 [float]
-=== Parameters
+=== Parametri
 `base`: the number (`float`)
 
 `exponent`: the power to which the base is raised (`float`)
 
 [float]
-=== Returns
+=== Restituisce
 The result of the exponentiation. (`double`)
 
 --

@@ -16,22 +16,22 @@ subCategories: [ "Trigonometry" ]
 --
 
 [float]
-=== Description
+=== Descrizione
 Calculates the cosine of an angle (in radians). The result will be between -1 and 1.
 [%hardbreaks]
 
 
 [float]
-=== Syntax
+=== Sintassi
 `cos(rad)`
 
 
 [float]
-=== Parameters
+=== Parametri
 `rad`: The angle in Radians (float).
 
 [float]
-=== Returns
+=== Restituisce
 The cos of the angle (`double`).
 
 --

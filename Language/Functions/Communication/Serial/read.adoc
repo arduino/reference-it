@@ -13,13 +13,13 @@ title: Serial.read()
 --
 
 [float]
-=== Description
+=== Descrizione
 Reads incoming serial data. read() inherits from the link:../../stream[Stream] utility class.
 [%hardbreaks]
 
 
 [float]
-=== Syntax
+=== Sintassi
 `Serial.read()`
 
 _Arduino Mega only:_
@@ -30,11 +30,11 @@ _Arduino Mega only:_
 
 
 [float]
-=== Parameters
+=== Parametri
 Nothing
 
 [float]
-=== Returns
+=== Restituisce
 The first byte of incoming serial data available (or -1 if no data is available) - `int`.
 
 --

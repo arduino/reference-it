@@ -16,22 +16,22 @@ subCategories: [ "Digital I/O" ]
 --
 
 [float]
-=== Description
+=== Descrizione
 Reads the value from a specified digital pin, either `HIGH` or `LOW`.
 [%hardbreaks]
 
 
 [float]
-=== Syntax
+=== Sintassi
 `digitalRead(pin)`
 
 
 [float]
-=== Parameters
+=== Parametri
 `pin`: the number of the digital pin you want to read
 
 [float]
-=== Returns
+=== Restituisce
 `HIGH` or `LOW`
 
 --

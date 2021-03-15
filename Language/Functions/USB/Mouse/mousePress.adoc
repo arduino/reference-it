@@ -13,7 +13,7 @@ title: Mouse.press()
 --
 
 [float]
-=== Description
+=== Descrizione
 Sends a button press to a connected computer. A press is the equivalent of clicking and continuously holding the mouse button. A press is cancelled with link:../mouserelease[Mouse.release()].
 
 Before using `Mouse.press()`, you need to start communication with link:../mousebegin[Mouse.begin()].
@@ -23,13 +23,13 @@ Before using `Mouse.press()`, you need to start communication with link:../mouse
 
 
 [float]
-=== Syntax
+=== Sintassi
 `Mouse.press();` +
 `Mouse.press(button)`
 
 
 [float]
-=== Parameters
+=== Parametri
 `button`: which mouse button to press - `char`
 
 * `MOUSE_LEFT (default)`
@@ -39,7 +39,7 @@ Before using `Mouse.press()`, you need to start communication with link:../mouse
 * `MOUSE_MIDDLE`
 
 [float]
-=== Returns
+=== Restituisce
 Nothing
 
 --

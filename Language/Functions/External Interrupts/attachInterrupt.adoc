@@ -1,7 +1,7 @@
 ---
 title: attachInterrupt()
 categories: [ "Functions" ]
-subCategories: [ "External Interrupts" ]
+subCategories: [ "Interrupts Esterni" ]
 ---
 
 
@@ -16,7 +16,7 @@ subCategories: [ "External Interrupts" ]
 --
 
 [float]
-=== Description
+=== Descrizione
 *Digital Pins With Interrupts*
 
 The first parameter to attachInterrupt is an interrupt number. Normally you should use digitalPinToInterrupt(pin) to translate the actual digital pin to the specific interrupt number. For example, if you connect to pin 3, use digitalPinToInterrupt(3) as the first parameter to attachInterrupt.
@@ -59,14 +59,14 @@ Typically global variables are used to pass data between an ISR and the main pro
 For more information on interrupts, see http://gammon.com.au/interrupts[Nick Gammon's notes].
 
 [float]
-=== Syntax
+=== Sintassi
 `attachInterrupt(digitalPinToInterrupt(pin), ISR, mode);`	(recommended) +
 `attachInterrupt(interrupt, ISR, mode);`	(not recommended) + 
 `attachInterrupt(pin, ISR, mode);`	(not recommended Arduino Due, Zero, MKR1000, 101 only)
 
 
 [float]
-=== Parameters
+=== Parametri
 `interrupt`: 	the number of the interrupt (`int`) +
 `pin`: 	      the pin number 	            _(Arduino Due, Zero, MKR1000 only)_ +
 `ISR`: 	      the ISR to call when the interrupt occurs; this function must take no parameters and return nothing. This function is sometimes referred to as an interrupt service routine. +
@@ -80,7 +80,7 @@ For more information on interrupts, see http://gammon.com.au/interrupts[Nick Gam
 * *HIGH* to trigger the interrupt whenever the pin is high.
 
 [float]
-=== Returns
+=== Restituisce
 Nothing
 
 --

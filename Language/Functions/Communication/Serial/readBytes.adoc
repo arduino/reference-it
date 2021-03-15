@@ -13,7 +13,7 @@ title: Serial.readBytes()
 --
 
 [float]
-=== Description
+=== Descrizione
 `Serial.readBytes()` reads characters from the serial port into a buffer. The function terminates if the determined length has been read, or it times out (see link:../settimeout[Serial.setTimeout()]).
 
 `Serial.readBytes()` returns the number of characters placed in the buffer. A 0 means no valid data was found.
@@ -23,18 +23,18 @@ title: Serial.readBytes()
 
 
 [float]
-=== Syntax
+=== Sintassi
 `Serial.readBytes(buffer, length)`
 
 
 [float]
-=== Parameters
+=== Parametri
 `buffer`: the buffer to store the bytes in (`char[]` or `byte[]`)
 
 `length` : the number of bytes to read (`int`)
 
 [float]
-=== Returns
+=== Restituisce
 The number of bytes placed in the buffer (`size_t`)
 
 --
