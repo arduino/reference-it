@@ -47,7 +47,7 @@ Calculates the absolute value of a number.
 
 
 [float]
-=== Notes and Warnings
+=== Note e Avvertimenti
 Because of the way the abs() function is implemented, avoid using other functions inside the brackets, it may lead to incorrect results.
 [source,arduino]
 ----

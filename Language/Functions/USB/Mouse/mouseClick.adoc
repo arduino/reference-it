@@ -49,8 +49,8 @@ Nothing
 --
 
 [float]
-=== Example Code
-// Describe what the example code is all about and add relevant code   ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
+=== Codice di Esempio
+// Descrivi di quale argomento tratta il codice di esempio e aggiungi il codice relativo   ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
 
 
 [source,arduino]
@@ -73,7 +73,7 @@ void loop(){
 [%hardbreaks]
 
 [float]
-=== Notes and Warnings
+=== Note e Avvertimenti
 When you use the `Mouse.click()` command, the Arduino takes over your mouse! Make sure you have control before you use the command. A pushbutton to toggle the mouse control state is effective.
 
 --
@@ -85,7 +85,7 @@ When you use the `Mouse.click()` command, the Arduino takes over your mouse! Mak
 --
 
 [float]
-=== See also
+=== Vedi anche
 
 [role="language"]
 * #LANGUAGE# link:../mouseend[Mouse.end()]

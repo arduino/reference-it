@@ -42,7 +42,7 @@ byte
 --
 
 [float]
-=== See also
+=== Vedi anche
 
 [role="language"]
 * #LANGUAGE# link:../../../variables/data-types/word[word()]

@@ -62,7 +62,7 @@ Nothing
 --
 
 [float]
-=== See also
+=== Vedi anche
 
 [role="example"]
 * #EXAMPLE# http://arduino.cc/en/Tutorial/SerialEvent[SerialEvent Tutorial]

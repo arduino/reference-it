@@ -50,7 +50,7 @@ Nothing
 --
 
 [float]
-=== Example Code
+=== Codice di Esempio
 The code makes the digital pin 13 `OUTPUT` and Togles it `HIGH` and `LOW`
 
 //[source,arduino]
@@ -71,7 +71,7 @@ void loop()
 [%hardbreaks]
 
 [float]
-=== Notes and Warnings
+=== Note e Avvertimenti
 The analog input pins can be used as digital pins, referred to as A0, A1, etc.
 
 --
@@ -83,7 +83,7 @@ The analog input pins can be used as digital pins, referred to as A0, A1, etc.
 --
 
 [float]
-=== See also
+=== Vedi anche
 
 [role="example"]
 * #EXAMPLE# http://arduino.cc/en/Tutorial/DigitalPins[Description of the pins on an Arduino board^]

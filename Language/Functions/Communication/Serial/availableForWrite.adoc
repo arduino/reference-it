@@ -45,7 +45,7 @@ The number of bytes available to read .
 --
 
 [float]
-=== See also
+=== Vedi anche
 
 [role="language"]
 * #LANGUAGE# link:../begin[begin()] +

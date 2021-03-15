@@ -42,7 +42,7 @@ Nothing
 --
 
 [float]
-=== See also
+=== Vedi anche
 
 [role="language"]
 * #LANGUAGE# link:../../stream[stream()]

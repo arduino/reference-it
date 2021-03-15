@@ -52,7 +52,7 @@ la durata dell'impulso ( in microsecondi ) oppure 0 se nessun impulso è partito
 
 [float]
 === Codice di esempio
-// Describe what the example code is all about and add relevant code   ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
+// Descrivi di quale argomento tratta il codice di esempio e aggiungi il codice relativo   ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
 Questo programma di esempio calcola il tempo di durata di un impulso sul pin 7.
 
 [source,arduino]

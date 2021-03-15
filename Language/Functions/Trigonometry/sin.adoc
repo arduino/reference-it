@@ -43,7 +43,7 @@ The sine of the angle (`double`).
 --
 
 [float]
-=== See also
+=== Vedi anche
 
 [role="language"]
 * #LANGUAGE# link:../../../variables/data-types/float[float]

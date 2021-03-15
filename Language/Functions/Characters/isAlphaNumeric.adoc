@@ -70,7 +70,7 @@ else
 --
 
 [float]
-=== See also
+=== Vedi anche
 
 [role="language"]
 * #LINGUAGGIO#  link:../../../variables/data-types/char[char]

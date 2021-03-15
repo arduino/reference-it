@@ -26,7 +26,7 @@ La libreria supporta l'utilizzo dei tasti modificatori. I tasti modificatori cam
 // OVERVIEW SECTION ENDS
 
 [float]
-=== Note e avvisi
+=== Note e Avvertimenti
 Queste librerie permettono alle schede basate su microcontrollore 32u4 e SAMD (Leonardo, Esplora, Zero, Due e la famiglia MKR) di essere viste dal PC come una tastiera o un mouse nativo. 
 tive Mouse and/or Keyboard to a connected computer.
 [%hardbreaks]

@@ -64,8 +64,8 @@ To send a single byte, use link:../write[Serial.write()].
 --
 
 [float]
-=== Example Code
-// Describe what the example code is all about and add relevant code   ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
+=== Codice di Esempio
+// Descrivi di quale argomento tratta il codice di esempio e aggiungi il codice relativo   ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
 
 
 [source,arduino]
@@ -121,7 +121,7 @@ void loop() {
 [%hardbreaks]
 
 [float]
-=== Notes and Warnings
+=== Note e Avvertimenti
 As of version 1.0, serial transmission is asynchronous; `Serial.print()` will return before any characters are transmitted.
 
 --
@@ -133,7 +133,7 @@ As of version 1.0, serial transmission is asynchronous; `Serial.print()` will re
 --
 
 [float]
-=== See also
+=== Vedi anche
 
 [role="language"]
 * #LANGUAGE# link:../begin[begin()]

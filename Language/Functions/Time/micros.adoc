@@ -45,8 +45,8 @@ Returns the number of microseconds since the Arduino board began running the cur
 --
 
 [float]
-=== Example Code
-// Describe what the example code is all about and add relevant code   ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
+=== Codice di Esempio
+// Descrivi di quale argomento tratta il codice di esempio e aggiungi il codice relativo   ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
 The code returns the number of microseconds since the Arduino board began.
 
 [source,arduino]
@@ -67,7 +67,7 @@ void loop(){
 [%hardbreaks]
 
 [float]
-=== Notes and Warnings
+=== Note e Avvertimenti
 There are 1,000 microseconds in a millisecond and 1,000,000 microseconds in a second.
 
 --

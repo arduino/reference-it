@@ -47,8 +47,8 @@ The smaller of the two numbers.
 --
 
 [float]
-=== Example Code
-// Describe what the example code is all about and add relevant code   ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
+=== Codice di Esempio
+// Descrivi di quale argomento tratta il codice di esempio e aggiungi il codice relativo   ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
 The code ensures that it never gets above 100.
 
 [source,arduino]
@@ -59,7 +59,7 @@ sensVal = min(sensVal, 100); // assigns sensVal to the smaller of sensVal or 100
 [%hardbreaks]
 
 [float]
-=== Notes and Warnings
+=== Note e Avvertimenti
 Perhaps counter-intuitively, `max()` is often used to constrain the lower end of a variable's range, while `min()` is used to constrain the upper end of the range.
 
 Because of the way the `min()` function is implemented, avoid using other functions inside the brackets, it may lead to incorrect results
