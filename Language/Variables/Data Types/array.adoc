@@ -8,7 +8,7 @@ subCategories: [ "Data Types" ]
 
 
 
-= Arrays
+= Array
 
 
 // OVERVIEW SECTION STARTS
@@ -16,12 +16,12 @@ subCategories: [ "Data Types" ]
 --
 
 [float]
-=== Description
-An array is a collection of variables that are accessed with an index number. Arrays in the C programming language, on which Arduino is based, can be complicated, but using simple arrays is relatively straightforward.
+=== Descrizione
+Un array è un insieme di variabili a cui si accede con un numero di indice. Gli arrays, nel linguaggio C, su cui si basa Arduino, possono essere complicati, ma l'utilizzo di semplici array è relativamente semplice.
 [float]
-=== Creating (Declaring) an Array
+=== Creazione (Dichiarazione) di un Array
 
-All of the methods below are valid ways to create (declare) an array.
+Tutti i metodi che seguono sono modi validi per creare (dichiarare) un array.
 [source,arduino]
 ----
   int myInts[6];
@@ -29,46 +29,46 @@ All of the methods below are valid ways to create (declare) an array.
   int mySensVals[6] = {2, 4, -8, 3, 2};
   char message[6] = "hello";
 ----
-You can declare an array without initializing it as in myInts.
+Puoi dichiarare un array senza inizializzarlo, come in myInts.
 {empty} +
-In myPins we declare an array without explicitly choosing a size. The compiler counts the elements and creates an array of the appropriate size.
+In myPins dichiariamo un array senza sceglierne esplicitamente la dimensione. Il compilatore conta gli elementi e crea un array della dimensione appropriata.
 {empty} +
-Finally you can both initialize and size your array, as in mySensVals. Note that when declaring an array of type char, one more element than your initialization is required, to hold the required null character.
+Infine, puoi sia inizializzare e dimensionare l'array, come in mySensVals. Nota che quando dichiari un array di tipo char, è richiesto un elemento in più rispetto all'inizializzazione, per contenere il carattere null (richiesto). 
 [%hardbreaks]
 
 [float]
-=== Accessing an Array
-Arrays are zero indexed, that is, referring to the array initialization above, the first element of the array is at index 0, hence
+=== Accedere a un Array
+Gli array hanno indice che parte da zero, cioè, in riferimento alle inizializzazioni degli array precedenti, il primo elemento dell'array è all'indice 0, perciò
 
-`mySensVals[0] == 2, mySensVals[1] == 4,` and so forth.
+`mySensVals[0] == 2, mySensVals[1] == 4,` e così via.
 
-It also means that in an array with ten elements, index nine is the last element. Hence:
+Significa anche che in un array con dieci elementi, l'indice nove è l'ultimo elemento. Quindi:
 
 [source,arduino]
 ----
 int myArray[10]={9,3,2,4,3,2,7,8,9,11};
-     // myArray[9]    contains 11
-     // myArray[10]   is invalid and contains random information (other memory address)
+     // myArray[9]    contiene 11
+     // myArray[10]   non è valido e contiene un'informazione casuale (un altro indirizzo in memoria)
 ----
-For this reason you should be careful in accessing arrays. Accessing past the end of an array (using an index number greater than your declared array size - 1) is reading from memory that is in use for other purposes. Reading from these locations is probably not going to do much except yield invalid data. Writing to random memory locations is definitely a bad idea and can often lead to unhappy results such as crashes or program malfunction. This can also be a difficult bug to track down.
+Per questo motivo dovresti fare attenzione quando accedi agli array. Accedere oltre la fine di un array (utilizzando un indice maggiore della dimensione dell'array dichiarata - 1) significa leggere dalla memoria che viene usata per altri scopi. La lettura da queste posizioni probabilmente non servirà a molto se non per fornire dati non validi. Scrivere in posizioni di memoria casuali è sicuramente una pessima idea e spesso può portare a risultati infelici come arresti anomali o malfunzionamenti del programma. Questo può generare anche bug difficili da rintracciare.
 [%hardbreaks]
 
-Unlike BASIC or JAVA, the C compiler does no checking to see if array access is within legal bounds of the array size that you have declared.
+A differenza di BASIC o JAVA, il compilatore C non controlla se l'accesso all'array rientra nei limiti alla dimensione dell'array che hai dichiarato. 
 [%hardbreaks]
 
 [float]
-=== To assign a value to an array:
+=== Per assegnare un valore a un array:
 `mySensVals[0] = 10;`
 [%hardbreaks]
 
 [float]
-=== To retrieve a value from an array:
+=== Per ottenere un valore da un array:
 `x = mySensVals[4];`
 [%hardbreaks]
 
 [float]
-=== Arrays and FOR Loops
-Arrays are often manipulated inside for loops, where the loop counter is used as the index for each array element. For example, to print the elements of an array over the serial port, you could do something like this:
+=== Array e cicli FOR
+Gli arrays sono spesso manipolati all'interno di cicli for, dove il contatore è usato come indice per ciascun elemento dell'array. Per esempio, per visualizzare gli elementi di un array nella porta seriale, puoi scrivere qualcosa come:
 
 [source,arduino]
 ----
@@ -88,8 +88,8 @@ for (i = 0; i < 5; i = i + 1) {
 --
 
 [float]
-=== Example Code
-For a complete program that demonstrates the use of arrays, see the (http://www.arduino.cc/en/Tutorial/KnightRider[Knight Rider example]) from the (http://www.arduino.cc/en/Main/LearnArduino[Tutorials]).
+=== Codice di esempio
+Per un programma completo come mostri l'uso degli array, guarda (http://www.arduino.cc/en/Tutorial/KnightRider[Knight Rider example]) nel (http://www.arduino.cc/en/Main/LearnArduino[Tutorial]).
 
 --
 // HOW TO USE SECTION ENDS
@@ -100,7 +100,7 @@ For a complete program that demonstrates the use of arrays, see the (http://www.
 --
 
 [float]
-=== See also
+=== Vedi anche
 
 [role="language"]
 * #LANGUAGE# link:../../utilities/progmem[PROGMEM]
