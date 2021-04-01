@@ -17,7 +17,7 @@ subCategories: [ "Digital I/O" ]
 
 [float]
 === Descrizione
-Reads the value from a specified digital pin, either `HIGH` or `LOW`.
+Legge il valore da uno specifico pin digitale, sia `HIGH` che `LOW`.
 [%hardbreaks]
 
 
