@@ -17,7 +17,7 @@ subCategories: [ "Bit e Byte" ]
 
 [float]
 === Descrizione
-Extracts the low-order (rightmost) byte of a variable (e.g. a word).
+Estrae il byte di ordine inferiore (più a destra) di una variabile (ad esempio una parola).
 [%hardbreaks]
 
 
@@ -28,7 +28,7 @@ Extracts the low-order (rightmost) byte of a variable (e.g. a word).
 
 [float]
 === Parametri
-`x`: a value of any type
+`x`: Un valore di ogni tipo
 
 [float]
 === Restituisce

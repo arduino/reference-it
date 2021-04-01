@@ -17,7 +17,7 @@ subCategories: [ "Bit e Byte" ]
 
 [float]
 === Descrizione
-Extracts the high-order (leftmost) byte of a word (or the second lowest byte of a larger data type).
+Estrae il byte di ordine superiore (più a sinistra) di una parola (o il secondo byte più basso di un tipo di dati più grande). 
 [%hardbreaks]
 
 
@@ -28,7 +28,7 @@ Extracts the high-order (leftmost) byte of a word (or the second lowest byte of 
 
 [float]
 === Parametri
-`x`: a value of any type
+`x`: un valore di ogni tipo
 
 [float]
 === Restituisce

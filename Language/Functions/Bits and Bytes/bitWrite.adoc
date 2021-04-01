@@ -17,7 +17,7 @@ subCategories: [ "Bit e Byte" ]
 
 [float]
 === Descrizione
-Writes a bit of a numeric variable.
+Scrive un bit di una variabile numerica.
 [%hardbreaks]
 
 
@@ -28,11 +28,11 @@ Writes a bit of a numeric variable.
 
 [float]
 === Parametri
-`x`: the numeric variable to which to write
+`x`: la variabile numerica dove scrive
 
-`n`: which bit of the number to write, starting at 0 for the least-significant (rightmost) bit
+`n`: quale bit del numero che deve essere scritto, a partire da 0 per il bit meno significativo (più a destra)
 
-`b`: the value to write to the bit (0 or 1)
+`b`: il valore da scrivere (0 o 1)
 
 [float]
 === Restituisce

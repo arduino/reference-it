@@ -28,9 +28,9 @@ Sets (writes a 1 to) a bit of a numeric variable.
 
 [float]
 === Parametri
-`x`: the numeric variable whose bit to set
+`x`: la variabile numerica della quale impostare il bit
 
-`n`: which bit to set, starting at 0 for the least-significant (rightmost) bit
+`n`: Quale bit da impostare, a partire da 0 per il bit meno significativo (più a destra)
 
 [float]
 === Restituisce
