@@ -2,7 +2,7 @@
 title: noTone()
 title_expanded: ""
 categories: [ "Functions" ]
-subCategories: [ "I/O Avanzato" ]
+subCategories: [ "Advanced I/O" ]
 aliases: [ /language/functions/advanced-io/noTone/ ]
 ---
 

@@ -1,7 +1,7 @@
 ﻿---
 title: "isAlpha()"
-categories: [ "Funzioni" ]
-subCategories: [ "Caratteri" ]
+categories: [ "Functions" ]
+subCategories: [ "Characters" ]
 ---
 
 

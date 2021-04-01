@@ -5,8 +5,6 @@ subCategories: [ "Analog I/O" ]
 ---
 
 
-
-
 = analogRead()
 
 

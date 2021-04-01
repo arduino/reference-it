@@ -1,7 +1,7 @@
 ﻿---
 title: "isPunct()"
-categories: [ "Funzioni" ]
-subCategories: [ "Caratteri" ]
+categories: [ "Functions" ]
+subCategories: [ "Characters" ]
 ---
 
 

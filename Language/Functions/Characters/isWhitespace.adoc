@@ -1,7 +1,7 @@
 ﻿---
 title: "isWhitespace()"
-categories: [ "Funzioni" ]
-subCategories: [ "Caratteri" ]
+categories: [ "Functions" ]
+subCategories: [ "Characters" ]
 ---
 
 

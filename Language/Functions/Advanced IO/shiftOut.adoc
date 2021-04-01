@@ -1,7 +1,7 @@
 ---
 title: shiftOut()
 categories: [ "Functions" ]
-subCategories: [ "I/O Avanzato" ]
+subCategories: [ "Advanced I/O" ]
 ---
 
 = shiftOut()
