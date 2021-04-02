@@ -94,7 +94,7 @@ Se viene utilizzata una resistenza di pull-up, il pin di ingresso sarà `HIGH` q
 
 
 === Pin configurati come INPUT_PULLUP
-Il microcontrollore ATmega su Arduino ha resistenze interne di pull-up (resistenze che si collegano internamente all'alimentazione ) a cui si può accedere. Se si preferisce usarli al posto di resistenze di pull-up esterne, si può l'argomento `INPUT_PULLUP` in` pinMode () `.
+Il microcontrollore ATmega su Arduino ha resistenze interne di pull-up (resistenze che si collegano internamente all'alimentazione ) a cui si può accedere. Se si preferisce usarli al posto di resistenze di pull-up esterne, si può l'argomento `INPUT_PULLUP` in `pinMode()`.
 [% hardbreaks]
 
 Guarda il tutorial http://arduino.cc/en/Tutorial/InputPullupSerial[Input Pullup Serial^] per vedere un esempio di utilizzo.
