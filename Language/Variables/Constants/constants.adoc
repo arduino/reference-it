@@ -30,7 +30,7 @@ Ci sono due costanti utilizzate per rappresentare Vero e Falso nel linguaggio Ar
 `true` è spesso e correttamente definito come 1, ma true ha una definizione più ampia. Qualsiasi intero che non è zero (0) è `true` (vero) in ambito booleano. quindi -1, 2 e -200 sono tutti dichiarabili come `true` (vero).
 [%hardbreaks]
 
-Notare che le costanti `true` and `false` sono scritte in minuscolo, non come HIGH`, `LOW`, `INPUT`, e `OUTPUT`.
+Notare che le costanti `true` and `false` sono scritte in minuscolo, non come `HIGH`, `LOW`, `INPUT`, e `OUTPUT`.
 [%hardbreaks]
 
 [float]
