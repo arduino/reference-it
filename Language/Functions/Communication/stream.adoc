@@ -18,7 +18,7 @@ subCategories: [ "Comunicazioni" ]
 === Descrizione
 Stream è la classe base per flussi basati su caratteri e binari. Non viene chiamato direttamente, ma viene richiamato ogni volta che si utilizza una funzione su cui si basa.
 
-Stream definisce le funzioni di lettura in Arduino. Quando si utilizza una funzionalità di base che utilizza un metodo `read ()` o simile, si può ragionevolmente presumere che chiami la classe Stream. Per funzioni come `print ()`, Stream le eredita dalla classe Print.
+Stream definisce le funzioni di lettura in Arduino. Quando si utilizza una funzionalità di base che utilizza un metodo `read()` o simile, si può ragionevolmente presumere che chiami la classe Stream. Per funzioni come `print()`, Stream le eredita dalla classe Print.
 
 Alcune delle librerie che si basano su Stream includono:
 
