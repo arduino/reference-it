@@ -28,7 +28,6 @@ La libreria supporta l'utilizzo dei tasti modificatori. I tasti modificatori cam
 [float]
 === Note e Avvertimenti
 Queste librerie permettono alle schede basate su microcontrollore 32u4 e SAMD (Leonardo, Esplora, Zero, Due e la famiglia MKR) di essere viste dal PC come una tastiera o un mouse nativo. 
-tive Mouse and/or Keyboard to a connected computer.
 [%hardbreaks]
 *Nota sull'utilizzo delle librerie Mouse e Keyboard*: se le librerie Mouse or Keyboard library sono in costante funzionamento, diventerà difficile la programmazione della scheda. Funzioni come `Mouse.move()` e `Keyboard.print()` sposteranno il cursore e manderanno caratteri al pc connesso. Raccomandiamo quindi di usarle solo quando siete pronti. Raccomandiamo di usare un sistema per l'abilitazione o la disabilitazione della funzione, come la pressione di un pulsante o l'invio di un controllo alla scheda.
 [%hardbreaks]
