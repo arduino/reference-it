@@ -24,7 +24,7 @@ La comunicazione seriale sui pin TX / RX utilizza livelli logici TTL (5V o 3.3V 
 * Arduino Mega * ha tre porte seriali aggiuntive: `Serial1` sui pin 19 (RX) e 18 (TX),` Serial2` sui pin 17 (RX) e 16 (TX), `Serial3` sui pin 15 (RX) e 14 (TX). Per utilizzare questi pin per comunicare con il tuo personal computer, avrai bisogno di un ulteriore adattatore da USB a seriale, poiché non sono collegati all'adattatore da USB a seriale di Mega. Per usarli per comunicare con un dispositivo seriale TTL esterno, collega il pin TX al pin RX del tuo dispositivo, l'RX al pin TX del tuo dispositivo e la terra del tuo Mega alla terra del tuo dispositivo.
 [% hardbreaks]
 * Arduino DUE * ha tre porte seriali TTL da 3,3 V aggiuntive: `Serial1` sui pin 19 (RX) e 18 (TX); "Serial2" sui pin 17 (RX) e 16 (TX), "Serial3" sui pin 15 (RX) e 14 (TX). I pin 0 e 1 sono anche collegati ai pin corrispondenti del chip seriale da USB a TTL ATmega16U2, che è collegato alla porta di debug USB. Inoltre, c'è una porta seriale USB nativa sul chip SAM3X, SerialUSB '.
-[% hardbreaks]
+[%hardbreaks]
 La scheda * Arduino Leonardo * utilizza `Serial1` per comunicare tramite seriale TTL (5V) sui pin 0 (RX) e 1 (TX). "Serial" è riservato per la comunicazione USB CDC. Per ulteriori informazioni, fare riferimento alla pagina iniziale di Leonardo e alla pagina hardware.
 
 --
