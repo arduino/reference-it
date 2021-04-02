@@ -100,7 +100,7 @@ Il microcontrollore ATmega su Arduino ha resistenze interne di pull-up (resisten
 Guarda il tutorial http://arduino.cc/en/Tutorial/InputPullupSerial[Input Pullup Serial^] per vedere un esempio di utilizzo.
 [%hardbreaks]
 
- I pin configurati come ingressi con "INPUT" o "INPUT_PULLUP" possono essere danneggiati o distrutti se sono collegati a tensioni negative o sopra la soglia di alimentazione positiva (5V o 3V).
+I pin configurati come ingressi con "INPUT" o "INPUT_PULLUP" possono essere danneggiati o distrutti se sono collegati a tensioni negative o sopra la soglia di alimentazione positiva (5V o 3V).
 [% hardbreaks]
 
 [float]
