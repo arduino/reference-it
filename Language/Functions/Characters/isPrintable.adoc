@@ -14,8 +14,8 @@ subCategories: [ "Characters" ]
 
 [float]
 === Descrizione
-Analizza se un carattere è stampabile (un carattere che produce un output, anche uno spazio bianco
-Restituisce 'true' se thisChar è stampabile)
+Analizza se un carattere è stampabile (un carattere che produce un output, anche uno spazio bianco).
+Restituisce 'true' se thisChar è stampabile.
 [%hardbreaks]
 
 
