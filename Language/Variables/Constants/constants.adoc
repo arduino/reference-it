@@ -84,10 +84,10 @@ Se il pin configurato come un `INPUT`, e si sta leggendo un interruttore, quando
 
 
 Se viene utilizzata una resistenza pull-down, il pin di ingresso sarà `LOW` quando l'interruttore è aperto e `HIGH` quando l'interruttore è chiuso.
-[% hardbreaks]
+[%hardbreaks]
 
 Se viene utilizzata una resistenza di pull-up, il pin di ingresso sarà `HIGH` quando l'interruttore è aperto e `LOW` quando l'interruttore è chiuso.
-[% hardbreaks]
+[%hardbreaks]
 
 
 [float]
