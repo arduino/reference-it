@@ -106,7 +106,7 @@ I pin configurati come ingressi con "INPUT" o "INPUT_PULLUP" possono essere dann
 [float]
 === Pin configurati come OUTPUT
 I pin configurati come `OUTPUT` con `pinMode()` sono in uno stato di _ bassa impedenza_. Ciò significa che possono fornire una notevole quantità di corrente ad altri circuiti. I pin ATmega possono generare (fornire corrente) o assorbire (assorbire corrente) fino a 40 mA (milliampere) di corrente ad altri dispositivi / circuiti. Ciò li rende utili per alimentare i LED perché i LED in genere utilizzano meno di 40 mA. Carichi superiori a 40 mA (ad esempio motori) richiederanno un transistor o altri circuiti esterni di interfacciamento.
-[% hardbreaks]
+[%hardbreaks]
 
 I pin configurati come uscite possono essere danneggiati o distrutti se sono collegati a terra o a sistemi di alimentazione positivi.
 [% hardbreaks]
