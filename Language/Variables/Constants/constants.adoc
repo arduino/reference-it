@@ -101,7 +101,7 @@ Guarda il tutorial http://arduino.cc/en/Tutorial/InputPullupSerial[Input Pullup 
 [%hardbreaks]
 
 I pin configurati come ingressi con "INPUT" o "INPUT_PULLUP" possono essere danneggiati o distrutti se sono collegati a tensioni negative o sopra la soglia di alimentazione positiva (5V o 3V).
-[% hardbreaks]
+[%hardbreaks]
 
 [float]
 === Pin configurati come OUTPUT
