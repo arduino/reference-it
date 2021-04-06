@@ -109,7 +109,7 @@ I pin configurati come `OUTPUT` con `pinMode()` sono in uno stato di _ bassa imp
 [%hardbreaks]
 
 I pin configurati come uscite possono essere danneggiati o distrutti se sono collegati a terra o a sistemi di alimentazione positivi.
-[% hardbreaks]
+[%hardbreaks]
 
 [float]
 == Definizione di built-in: LED_BUILTIN
