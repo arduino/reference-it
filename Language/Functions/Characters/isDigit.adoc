@@ -17,7 +17,7 @@ subCategories: [ "Characters" ]
 
 [float]
 === Descrizione
-Analizza se un carattere è un numero. Restituisce 'true' se thisChar è un numero.mber. 
+Analizza se un carattere è un numero. Restituisce 'true' se thisChar è un numero.
 [%hardbreaks]
 
 
