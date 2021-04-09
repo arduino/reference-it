@@ -17,7 +17,7 @@ subCategories: [ "Comunicazioni" ]
 [float]
 === Descrizione
 Utilizzato per la comunicazione tra la scheda Arduino e un computer o altri dispositivi. Tutte le schede Arduino hanno almeno una porta seriale (nota anche come UART o USART): Seriale. Comunica sui pin digitali 0 (RX) e 1 (TX) oltre che con il computer tramite USB. Pertanto, se si utilizzano queste funzioni, non è possibile utilizzare anche i pin 0 e 1 per l'ingresso o l'uscita digitale. +
-È possibile utilizzare il monitor seriale integrato nell'ambiente Arduino per comunicare con una scheda Arduino. Fare clic sul pulsante del monitor seriale nella barra degli strumenti e selezionare la stessa velocità di trasmissione utilizzata nella chiamata a `begin ()`.
+È possibile utilizzare il monitor seriale integrato nell'ambiente Arduino per comunicare con una scheda Arduino. Fare clic sul pulsante del monitor seriale nella barra degli strumenti e selezionare la stessa velocità di trasmissione utilizzata nella chiamata a `begin()`.
 [% hardbreaks]
 La comunicazione seriale sui pin TX / RX utilizza livelli logici TTL (5V o 3.3V a seconda della scheda). Non collegare questi pin direttamente a una porta seriale RS232; funzionano a +/- 12V e possono danneggiare la tua scheda Arduino.
 [% hardbreaks]
