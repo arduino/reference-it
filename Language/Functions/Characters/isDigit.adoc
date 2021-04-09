@@ -34,7 +34,7 @@ isDigit(thisChar)
 
 [float]
 === Restituisce
-`true`: if thisChar is un numero.
+`true`: se thisChar è un numero.
 
 --
 // OVERVIEW SECTION ENDS
