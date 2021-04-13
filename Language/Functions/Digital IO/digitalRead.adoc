@@ -16,22 +16,22 @@ subCategories: [ "Digital I/O" ]
 --
 
 [float]
-=== Description
-Reads the value from a specified digital pin, either `HIGH` or `LOW`.
+=== Descrizione
+Legge il valore da uno specifico pin digitale, sia `HIGH` che `LOW`.
 [%hardbreaks]
 
 
 [float]
-=== Syntax
+=== Sintassi
 `digitalRead(pin)`
 
 
 [float]
-=== Parameters
+=== Parametri
 `pin`: the number of the digital pin you want to read
 
 [float]
-=== Returns
+=== Restituisce
 `HIGH` or `LOW`
 
 --
@@ -45,8 +45,8 @@ Reads the value from a specified digital pin, either `HIGH` or `LOW`.
 --
 
 [float]
-=== Example Code
-// Describe what the example code is all about and add relevant code   ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
+=== Codice di Esempio
+// Descrivi di quale argomento tratta il codice di esempio e aggiungi il codice relativo   ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
 Sets pin 13 to the same value as pin 7, declared as an input.
 
 //[source,arduino]
@@ -70,7 +70,7 @@ void loop()
 [%hardbreaks]
 
 [float]
-=== Notes and Warnings
+=== Note e Avvertimenti
 If the pin isn't connected to anything, digitalRead() can return either HIGH or LOW (and this can change randomly).
 
 The analog input pins can be used as digital pins, referred to as A0, A1, etc.
@@ -84,7 +84,7 @@ The analog input pins can be used as digital pins, referred to as A0, A1, etc.
 --
 
 [float]
-=== See also
+=== Vedi anche
 
 [role="example"]
 * #EXAMPLE# Tutorial: (http://arduino.cc/en/Tutorial/DigitalPins[Digital Pins])

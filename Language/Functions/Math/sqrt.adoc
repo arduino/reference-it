@@ -17,21 +17,21 @@ Calculates the square root of a number.
 --
 
 [float]
-=== Description
+=== Descrizione
 [%hardbreaks]
 
 
 [float]
-=== Syntax
+=== Sintassi
 `sqrt(x)`
 
 
 [float]
-=== Parameters
+=== Parametri
 `x`: the number, any data type
 
 [float]
-=== Returns
+=== Restituisce
 The number's square root. (double)
 
 --

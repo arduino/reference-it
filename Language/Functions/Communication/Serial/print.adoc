@@ -13,7 +13,7 @@ title: Serial.print()
 --
 
 [float]
-=== Description
+=== Descrizione
 Prints data to the serial port as human-readable ASCII text. This command can take many forms. Numbers are printed using an ASCII character for each digit. Floats are similarly printed as ASCII digits, defaulting to two decimal places. Bytes are sent as a single character. Characters and strings are sent as is. For example-
 
 * `Serial.print(78) gives "78"` +
@@ -40,17 +40,17 @@ To send a single byte, use link:../write[Serial.write()].
 
 
 [float]
-=== Syntax
+=== Sintassi
 `Serial.print(val)` +
 `Serial.print(val, format)`
 
 
 [float]
-=== Parameters
+=== Parametri
 `val`: the value to print - any data type
 
 [float]
-=== Returns
+=== Restituisce
 `size_t`: `print()` returns the number of bytes written, though reading that number is optional.
 
 --
@@ -64,8 +64,8 @@ To send a single byte, use link:../write[Serial.write()].
 --
 
 [float]
-=== Example Code
-// Describe what the example code is all about and add relevant code   ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
+=== Codice di Esempio
+// Descrivi di quale argomento tratta il codice di esempio e aggiungi il codice relativo   ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
 
 
 [source,arduino]
@@ -121,7 +121,7 @@ void loop() {
 [%hardbreaks]
 
 [float]
-=== Notes and Warnings
+=== Note e Avvertimenti
 As of version 1.0, serial transmission is asynchronous; `Serial.print()` will return before any characters are transmitted.
 
 --
@@ -133,7 +133,7 @@ As of version 1.0, serial transmission is asynchronous; `Serial.print()` will re
 --
 
 [float]
-=== See also
+=== Vedi anche
 
 [role="language"]
 * #LANGUAGE# link:../begin[begin()]

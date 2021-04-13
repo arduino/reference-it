@@ -16,25 +16,25 @@ subCategories: [ "Characters" ]
 --
 
 [float]
-=== Description
-Analyse if a char is punctuation (that is a comma, a semicolon, an exlamation mark and so on). Returns true if thisChar is punctuation. 
+=== Descrizione
+Analizza se il carattere è un segno di interpunzione ( ovvero una virgola, punto e virgola, punto esclamativo). Restituisce 'true' se thisChar è un segno di interpunzione.
 [%hardbreaks]
 
 
 [float]
-=== Syntax
+=== Sintassi
 [source,arduino]
 ----
 `isPunct(thisChar)`
 ----
 
 [float]
-=== Parameters
-`thisChar`: variable. *Allowed data types:* char
+=== Parametri
+`thisChar`: variabile. *Tipi di dato accettati:* char
 
 [float]
-=== Returns
-`true`: if thisChar is a punctuation.
+=== Restituisce
+`true`: se thisChar è un segno di interpunzione.
 
 --
 // OVERVIEW SECTION ENDS
@@ -46,7 +46,7 @@ Analyse if a char is punctuation (that is a comma, a semicolon, an exlamation ma
 --
 
 [float]
-=== Example Code
+=== Codice di esempio
 
 [source,arduino]
 ----
@@ -70,7 +70,7 @@ else
 --
 
 [float]
-=== See also
+=== Vedi anche
 
 [role="language"]
 * #LANGUAGE#  link:../../../variables/data-types/char[char]

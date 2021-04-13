@@ -16,22 +16,22 @@ subCategories: [ "Bits and Bytes" ]
 --
 
 [float]
-=== Description
-Extracts the low-order (rightmost) byte of a variable (e.g. a word).
+=== Descrizione
+Estrae il byte di ordine inferiore (più a destra) di una variabile (ad esempio una parola).
 [%hardbreaks]
 
 
 [float]
-=== Syntax
+=== Sintassi
 `lowByte(x)`
 
 
 [float]
-=== Parameters
-`x`: a value of any type
+=== Parametri
+`x`: Un valore di ogni tipo
 
 [float]
-=== Returns
+=== Restituisce
 byte
 --
 // OVERVIEW SECTION ENDS
@@ -42,7 +42,7 @@ byte
 --
 
 [float]
-=== See also
+=== Vedi anche
 
 [role="language"]
 * #LANGUAGE# link:../../../variables/data-types/word[word()]

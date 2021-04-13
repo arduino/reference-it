@@ -13,13 +13,13 @@ title: Serial.end()
 --
 
 [float]
-=== Description
+=== Descrizione
 Disables serial communication, allowing the RX and TX pins to be used for general input and output. To re-enable serial communication, call link:../begin[Serial.begin()].
 [%hardbreaks]
 
 
 [float]
-=== Syntax
+=== Sintassi
 `Serial.end()`
 
 _Arduino Mega only:_
@@ -30,11 +30,11 @@ _Arduino Mega only:_
 
 
 [float]
-=== Parameters
+=== Parametri
 Nothing
 
 [float]
-=== Returns
+=== Restituisce
 Nothing
 
 --

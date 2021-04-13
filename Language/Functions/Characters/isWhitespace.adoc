@@ -16,26 +16,27 @@ subCategories: [ "Characters" ]
 --
 
 [float]
-=== Description
-Analyse if a char is a white space, that is space, formfeed ('\f'), newline ('\n'), carriage return ('\r'), horizontal tab ('\t'), and vertical tab ('\v')). 
-Returns true if thisChar contains a white space. 
+=== Descrizione
+Analizza se un carattere è uno spazio vuoto, cioè spazio, avanzamento ('\f'), nuova linea ('\n'), ritorno a capo ('\r'), tabulazione orizzontale ('\t'), tabulazione verticale ('\v').
+
+Restituisce 'true' se thisChar contiene uno spazio vuoto.
 [%hardbreaks]
 
 
 [float]
-=== Syntax
+=== Sintassi
 [source,arduino]
 ----
 `isWhitespace(thisChar)`
 ----
 
 [float]
-=== Parameters
-`thisChar`: variable. *Allowed data types:* char
+=== Parametri
+`thisChar`: variabile. *Tipi di dato accettati:* char
 
 [float]
-=== Returns
-`true`: if thisChar is a white space.
+=== Restituisce
+`true`: se thisChar è uno spazio vuoto.
 
 --
 // OVERVIEW SECTION ENDS
@@ -47,7 +48,7 @@ Returns true if thisChar contains a white space.
 --
 
 [float]
-=== Example Code
+=== Codice di esempio
 
 [source,arduino]
 ----
@@ -71,7 +72,7 @@ else
 --
 
 [float]
-=== See also
+=== Vedi anche
 
 [role="language"]
 * #LANGUAGE#  link:../../../variables/data-types/char[char]
