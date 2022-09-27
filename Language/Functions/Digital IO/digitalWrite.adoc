@@ -16,32 +16,32 @@ subCategories: [ "Digital I/O" ]
 --
 
 [float]
-=== Description
-Write a `HIGH` or a `LOW` value to a digital pin.
+=== Descrizione
+Scrive il valore `HIGH` o `LOW` in un pin digitale.
 
-If the pin has been configured as an `OUTPUT` with `pinMode()`, its voltage will be set to the corresponding value: 5V (or 3.3V on 3.3V boards) for `HIGH`, 0V (ground) for `LOW`.
+Se il pin è stato configurato come `OUTPUT` con `pinMode()`, la sua tensione sarà impostata sul valore corrispondente: 5V (o 3,3V nelle schede a 3,3V) per `HIGH`, 0V (massa) per `LOW`.
 [%hardbreaks]
 
-If the pin is configured as an `INPUT`, `digitalWrite()` will enable (`HIGH`) or disable (`LOW`) the internal pullup on the input pin. It is recommended to set the `pinMode()` to `INPUT_PULLUP` to enable the internal pull-up resistor. See the digital pins tutorial for more information.
+Se il pin è configurato come `INPUT`, `digitalWrite()` abilita (`HIGH`) o disabilita (`LOW`) il pullup interno sul pin di ingresso. Si consiglia di impostare `pinMode()` su `INPUT_PULLUP` per abilitare la resistenza di pull-up interna. Per ulteriori informazioni, consultare il tutorial sui pin digitali.
 [%hardbreaks]
 
-If you do not set the `pinMode()` to `OUTPUT`, and connect an LED to a pin, when calling `digitalWrite(HIGH)`, the LED may appear dim. Without explicitly setting `pinMode()`, `digitalWrite()` will have enabled the internal pull-up resistor, which acts like a large current-limiting resistor.
+Se non si imposta `pinMode()` su `OUTPUT` e si collega un LED a un pin, quando si richiama `digitalWrite(HIGH)`, il LED potrebbe apparire poco luminoso. Senza impostare esplicitamente `pinMode()`, `digitalWrite()` avrà attivato la resistenza di pull-up interna, che agisce come una resistenza che limita la corrente.
 [%hardbreaks]
 
 [float]
-=== Syntax
-`digitalWrite(pin, value)`
+=== Sintassi
+`digitalWrite(pin, valore)`
 
 
 [float]
-=== Parameters
-`pin`: the pin number
+=== Parametri
+`pin`: il numero del pin
 
-`value`: `HIGH` or `LOW`
+`valore`: `HIGH` o `LOW`
 
 [float]
-=== Returns
-Nothing
+=== Restituisce
+Nulla
 
 --
 // OVERVIEW SECTION ENDS
@@ -54,30 +54,30 @@ Nothing
 --
 
 [float]
-=== Example Code
+=== Codice di esempio
 // Describe what the example code is all about and add relevant code   ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
-The code makes the digital pin 13 an `OUTPUT` and toggles it by alternating between `HIGH` and `LOW` at one second pace.
+Il codice rende il pin digitale 13 un `OUTPUT` e lo alterna tra `HIGH` e `LOW` a intervalli di un secondo.
 
 //[source,arduino]
 ----
 void setup()
 {
-  pinMode(13, OUTPUT);          // sets the digital pin 13 as output
+  pinMode(13, OUTPUT);          // imposta il pin 13 come uscita
 }
 
 void loop()
 {
-  digitalWrite(13, HIGH);       // sets the digital pin 13 on
-  delay(1000);                  // waits for a second
-  digitalWrite(13, LOW);        // sets the digital pin 13 off
-  delay(1000);                  // waits for a second
+  digitalWrite(13, HIGH);       // imposta il pin digitale 13 a livello alto
+  delay(1000);                  // attende un secondo
+  digitalWrite(13, LOW);        // imposta il pin digitale 13 a livello basso
+  delay(1000);                  // attende un secondo
 }
 ----
 [%hardbreaks]
 
 [float]
-=== Notes and Warnings
-The analog input pins can be used as digital pins, referred to as A0, A1, etc.
+=== Note e avvertenze
+I pin di ingresso analogici possono essere utilizzati come pin digitali, denominati A0, A1, ecc.
 
 --
 // HOW TO USE SECTION ENDS
@@ -88,10 +88,10 @@ The analog input pins can be used as digital pins, referred to as A0, A1, etc.
 --
 
 [float]
-=== See also
+=== Vedi anche
 
 [role="example"]
-* #EXAMPLE# http://arduino.cc/en/Tutorial/DigitalPins[Tutorial: Digital Pins]
+* #EXAMPLE# http://arduino.cc/it/Tutorial/DigitalPins[Tutorial: Digital Pins]
 
 --
 // SEE ALSO SECTION ENDS
