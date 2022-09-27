@@ -7,14 +7,14 @@ Grazie per aver speso del tempo per contribuire al contenuto di Arduino, questo 
 
 == Creazione del contenuto e modifica
 
-Se vuoi contribuire con nuovi contenuti, crea un nuovo file ( con qualunque editor di testo ) e salvalo con estensione .adoc
+Se vuoi contribuire con nuovi contenuti, crea un nuovo file (con qualunque editor di testo) e salvalo con estensione .adoc
 
-Non usare parentesi oppure caratteri speciali nel nome del file. In https://raw.githubusercontent.com/arduino/reference-it/master/AsciiDoc_sample/AsciiDoc_Dictionary/AsciiDoc_Template-Dictionary.adoc[`reference-it/AsciiDoc_sample/AsciiDoc_Dictionary`] troverai una panoramica della sintassi AsciiDoc. Questo include Titoli, Testo, Link, Immagini, Tabelle, Codice e varie integrazioni ( video, slideshow, audio e codice ). Puoi vederlo renderizzato https://https://www.arduino.cc/reference/it/asciidoc_sample/asciidoc_dictionary/asciidoc_template-dictionary/[qui].
+Non usare parentesi oppure caratteri speciali nel nome del file. In https://raw.githubusercontent.com/arduino/reference-it/master/AsciiDoc_sample/AsciiDoc_Dictionary/AsciiDoc_Template-Dictionary.adoc[`reference-it/AsciiDoc_sample/AsciiDoc_Dictionary`] troverai una panoramica della sintassi AsciiDoc. Questo include Titoli, Testo, Link, Immagini, Tabelle, Codice e varie integrazioni (video, slideshow, audio e codice). Puoi vederlo renderizzato https://https://www.arduino.cc/reference/it/asciidoc_sample/asciidoc_dictionary/asciidoc_template-dictionary/[qui].
 
 Se vuoi contribuire alla Language Reference o modificare contenuto esistente, puoi trovare due modelli in reference-it/AsciiDoc_sample/Reference_Terms:
 
-* Usa https://raw.githubusercontent.com/arduino/reference-it/master/AsciiDoc_sample/Reference_Terms/AsciiDoc_Template-Single_Entity.adoc[`AsciiDoc_Template-Single_Entity.adoc`] (renderizzato https://https://www.arduino.cc/reference/it/asciidoc_sample/reference_terms/asciidoc_template-single_entity/[qui]) per termini come link:http://arduino.cc/en/Reference/AnalogWrite[analogWrite].
-* Usa https://raw.githubusercontent.com/arduino/reference-it/master/AsciiDoc_sample/Reference_Terms/AsciiDoc_Template-Parent_Of_Entities.adoc[`AsciiDoc_Template-Parent_Of_Entities.adoc`] (renderizzato https://https://www.arduino.cc/reference/it/asciidoc_sample/reference_terms/asciidoc_template-parent_of_entities/[qui]) per gruppi di funzioni come link:http://arduino.cc/en/Reference/Serial[Serial].
+* Usa https://raw.githubusercontent.com/arduino/reference-it/master/AsciiDoc_sample/Reference_Terms/AsciiDoc_Template-Single_Entity.adoc[`AsciiDoc_Template-Single_Entity.adoc`] (renderizzato https://www.arduino.cc/reference/it/asciidoc_sample/reference_terms/asciidoc_template-single_entity/[qui]) per termini come link:http://arduino.cc/en/Reference/AnalogWrite[analogWrite].
+* Usa https://raw.githubusercontent.com/arduino/reference-it/master/AsciiDoc_sample/Reference_Terms/AsciiDoc_Template-Parent_Of_Entities.adoc[`AsciiDoc_Template-Parent_Of_Entities.adoc`] (renderizzato https://www.arduino.cc/reference/it/asciidoc_sample/reference_terms/asciidoc_template-parent_of_entities/[qui]) per gruppi di funzioni come link:http://arduino.cc/en/Reference/Serial[Serial].
 
 Nota che ogni file della Reference dovrebbe includere almeno una Descrizione, del Codice di Esempio, e link ad altre informazioni rilevanti ( Vedi la sezione Altro ).
 
@@ -56,4 +56,4 @@ reference-it
 
 ----
 
-Nella cartella Language , l'albero dei file segue la stessa struttura della link:https://www.arduino.cc/reference/en[Pagina web Arduino Reference]
+Nella cartella Language, l'albero dei file segue la stessa struttura della link:https://www.arduino.cc/reference/en[Pagina web Arduino Reference]
