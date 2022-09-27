@@ -13,8 +13,8 @@ Non usare parentesi oppure caratteri speciali nel nome del file. In https://raw.
 
 Se vuoi contribuire alla Language Reference o modificare contenuto esistente, puoi trovare due modelli in reference-it/AsciiDoc_sample/Reference_Terms:
 
-* Usa https://raw.githubusercontent.com/arduino/reference-it/master/AsciiDoc_sample/Reference_Terms/AsciiDoc_Template-Single_Entity.adoc[`AsciiDoc_Template-Single_Entity.adoc`] (renderizzato https://github.com/arduino/reference-it/blob/master/AsciiDoc_sample/AsciiDoc_Dictionary/AsciiDoc_Template-Dictionary.adoc[qui]) per termini come link:http://arduino.cc/en/Reference/AnalogWrite[analogWrite].
-* Usa https://raw.githubusercontent.com/arduino/reference-it/master/AsciiDoc_sample/Reference_Terms/AsciiDoc_Template-Parent_Of_Entities.adoc[`AsciiDoc_Template-Parent_Of_Entities.adoc`] (renderizzato https://github.com/arduino/reference-it/blob/master/AsciiDoc_sample/Reference_Terms/AsciiDoc_Template-Parent_Of_Entities.adoc[qui]) per gruppi di funzioni come link:http://arduino.cc/en/Reference/Serial[Serial].
+* Usa https://raw.githubusercontent.com/arduino/reference-it/master/AsciiDoc_sample/Reference_Terms/AsciiDoc_Template-Single_Entity.adoc[`AsciiDoc_Template-Single_Entity.adoc`] (renderizzato https://www.arduino.cc/reference/it/asciidoc_sample/reference_terms/asciidoc_template-single_entity/[qui]) per termini come link:http://arduino.cc/en/Reference/AnalogWrite[analogWrite].
+* Usa https://raw.githubusercontent.com/arduino/reference-it/master/AsciiDoc_sample/Reference_Terms/AsciiDoc_Template-Parent_Of_Entities.adoc[`AsciiDoc_Template-Parent_Of_Entities.adoc`] (renderizzato https://www.arduino.cc/reference/it/asciidoc_sample/reference_terms/asciidoc_template-parent_of_entities/[qui]) per gruppi di funzioni come link:http://arduino.cc/en/Reference/Serial[Serial].
 
 Nota che ogni file della Reference dovrebbe includere almeno una Descrizione, del Codice di Esempio, e link ad altre informazioni rilevanti ( Vedi la sezione Altro ).
 
