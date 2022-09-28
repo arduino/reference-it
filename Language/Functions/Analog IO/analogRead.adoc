@@ -5,8 +5,6 @@ subCategories: [ "Analog I/O" ]
 ---
 
 
-
-
 = analogRead()
 
 
@@ -52,7 +50,7 @@ int( 0 to 1023 )
 
 [float]
 === Codice di Esempio
-// Describe what the example code is all about and add relevant code   ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
+// Descrivi di quale argomento tratta il codice di esempio e aggiungi il codice relativo   ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
 Il codice legge la tensione su analogPin e la visualizza.
 
 [source,arduino]

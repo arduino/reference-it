@@ -5,9 +5,6 @@ subCategories: [ "Characters" ]
 ---
 
 
-
-
-
 = isHexadecimalDigit(thisChar)
 
 
@@ -16,24 +13,24 @@ subCategories: [ "Characters" ]
 --
 
 [float]
-=== Description
-Analyse if a char is an hexadecimal digit (A-F, 0-9). Returns true if thisChar contains an hexadecimal digit. 
+=== Descrizione
+Analizza se il carattere è esadecimale (A-F, 0-9). Restituisce 'true' se thisChar contiene un carattere esadecimale.
 [%hardbreaks]
 
 
 [float]
-=== Syntax
+=== Sintassi
 [source,arduino]
 ----
 `isHexadecilamDigit(thisChar)`
 ----
 
 [float]
-=== Parameters
-`thisChar`: variable. *Allowed data types:* char
+=== Parametri
+`thisChar`: variabile. *Tipi di dato accettati:* char
 
 [float]
-=== Returns
+=== Restituisce
 `true`: if thisChar is an hexadecimal digit.
 
 --
@@ -46,7 +43,7 @@ Analyse if a char is an hexadecimal digit (A-F, 0-9). Returns true if thisChar c
 --
 
 [float]
-=== Example Code
+=== Codice di esempio
 
 [source,arduino]
 ----
@@ -70,7 +67,7 @@ else
 --
 
 [float]
-=== See also
+=== Vedi anche
 
 [role="language"]
 * #LANGUAGE#  link:../../../variables/data-types/char[char]

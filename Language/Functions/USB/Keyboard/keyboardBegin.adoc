@@ -13,22 +13,22 @@ title: Keyboard.begin()
 --
 
 [float]
-=== Description
+=== Descrizione
 When used with a Leonardo or Due board, `Keyboard.begin()` starts emulating a keyboard connected to a computer. To end control, use link:../keyboardend[Keyboard.end()].
 [%hardbreaks]
 
 
 [float]
-=== Syntax
+=== Sintassi
 `Keyboard.begin()`
 
 
 [float]
-=== Parameters
+=== Parametri
 Nothing
 
 [float]
-=== Returns
+=== Restituisce
 Nothing
 
 // OVERVIEW SECTION ENDS
@@ -41,8 +41,8 @@ Nothing
 --
 
 [float]
-=== Example Code
-// Describe what the example code is all about and add relevant code   ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
+=== Codice di Esempio
+// Descrivi di quale argomento tratta il codice di esempio e aggiungi il codice relativo   ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
 
 
 [source,arduino]

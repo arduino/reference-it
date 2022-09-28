@@ -16,25 +16,25 @@ subCategories: [ "Characters" ]
 --
 
 [float]
-=== Description
-Analyse if a char is upper case (that is a letter in upper case). Returns true if thisChar is upper case. 
+=== Descrizione
+Analizza se un carattere è maiuscolo (ovvero una lettera in maiuscolo). Restituisce 'true' se thisChar è maiuscolo. 
 [%hardbreaks]
 
 
 [float]
-=== Syntax
+=== Sintassi
 [source,arduino]
 ----
 `isUpperCase(thisChar)`
 ----
 
 [float]
-=== Parameters
-`thisChar`: variable. *Allowed data types:* char
+=== Parametri
+`thisChar`: variabile. *Tipi di dati supportati:* char
 
 [float]
-=== Returns
-`true`: if thisChar is upper case.
+=== Restituisce
+`true`: se thisChar è maiuscolo.
 
 --
 // OVERVIEW SECTION ENDS
@@ -46,7 +46,7 @@ Analyse if a char is upper case (that is a letter in upper case). Returns true i
 --
 
 [float]
-=== Example Code
+=== Codice di esempio
 
 [source,arduino]
 ----
@@ -70,7 +70,7 @@ else
 --
 
 [float]
-=== See also
+=== Vedi anche
 
 [role="language"]
 * #LANGUAGE#  link:../../../variables/data-types/char[char]

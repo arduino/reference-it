@@ -13,13 +13,13 @@ title: Serial.available()
 --
 
 [float]
-=== Description
+=== Descrizione
 Get the number of bytes (characters) available for reading from the serial port. This is data that's already arrived and stored in the serial receive buffer (which holds 64 bytes). `available()` inherits from the Stream utility class.
 [%hardbreaks]
 
 
 [float]
-=== Syntax
+=== Sintassi
 `Serial.available()`
 
 _Arduino Mega only:_
@@ -30,11 +30,11 @@ _Arduino Mega only:_
 
 
 [float]
-=== Parameters
+=== Parametri
 Nothing
 
 [float]
-=== Returns
+=== Restituisce
 The number of bytes available to read .
 --
 // OVERVIEW SECTION ENDS
@@ -102,7 +102,7 @@ void loop() {
 --
 
 [float]
-=== See also
+=== Vedi anche
 
 [role="language"]
 * #LANGUAGE# link:../begin[begin()] +

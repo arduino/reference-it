@@ -13,7 +13,7 @@ title: Serial.findUntil()
 --
 
 [float]
-=== Description
+=== Descrizione
 `Serial.findUntil()` reads data from the serial buffer until a target string of given length or terminator string is found.
 
 The function returns true if the target string is found, false if it times out.
@@ -23,17 +23,17 @@ The function returns true if the target string is found, false if it times out.
 
 
 [float]
-=== Syntax
+=== Sintassi
 `Serial.findUntil(target, terminal)`
 
 
 [float]
-=== Parameters
+=== Parametri
 `target` : the string to search for (char)
 `terminal` : the terminal string in the search (char)
 
 [float]
-=== Returns
+=== Restituisce
 `boolean`
 
 --
@@ -47,7 +47,7 @@ The function returns true if the target string is found, false if it times out.
 --
 
 [float]
-=== Notes and Warnings
+=== Note e Avvertimenti
 
 --
 // HOW TO USE SECTION ENDS
@@ -58,7 +58,7 @@ The function returns true if the target string is found, false if it times out.
 --
 
 [float]
-=== See also
+=== Vedi anche
 
 [role="language"]
 * #LANGUAGE# link:../../stream[stream] +

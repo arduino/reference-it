@@ -1,7 +1,7 @@
 ---
 title: pulseInLong()
 categories: [ "Functions" ]
-subCategories: [ "I/O Avanzato" ]
+subCategories: [ "Advanced I/O" ]
 ---
 
 
@@ -16,7 +16,7 @@ subCategories: [ "I/O Avanzato" ]
 --
 
 [float]
-=== Description
+=== Descrizione
 Legge un impulso (sia di tipo HIGH oppure LOW) su un pin. Per esempio, se *valore* = *HIGH*, `pulseInLong()` aspetta che il pin vada nello stato *HIGH*, incomincia a contare, quindi aspetta che il pin vada nello stato *LOW* e smette di contare. Restituisce la durata dell'impulso in microsecondi. Si interrompe e restituisce 0 se nessun impulso parte entro il timeout specificato.
 
 La temporizzazione di questa funzione è stata determinata empiricamente e probabilmente produrrà errori con gli impulsi più lunghi. Funziona sugli impulsi di lunghezza compresa tra 10 microsecondi e 3 minuti. Nota anche che se il pin è gia nello stato *HIGH* quando la funzione viene chiamata, essa aspetterà che il pin vada nello stato *LOW* e poi *HIGH* prima di iniziare a contare. Questa routine può essere usata solo se gli interrupt sono attivati. Inoltre, la risoluzione più alta è ottenuta con intervalli lunghi.
@@ -52,7 +52,7 @@ la durata dell'impulso ( in microsecondi ) oppure 0 se nessun impulso è partito
 
 [float]
 === Codice di esempio
-// Describe what the example code is all about and add relevant code   ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
+// Descrivi di quale argomento tratta il codice di esempio e aggiungi il codice relativo   ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
 Questo programma di esempio calcola il tempo di durata di un impulso sul pin 7.
 
 [source,arduino]

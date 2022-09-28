@@ -13,7 +13,7 @@ title: Serial.serialEvent()
 --
 
 [float]
-=== Description
+=== Descrizione
 Called when data is available. Use `Serial.read()` to capture this data.
 
 NB : Currently, `serialEvent()` is not compatible with the Esplora, Leonardo, or Micro
@@ -21,7 +21,7 @@ NB : Currently, `serialEvent()` is not compatible with the Esplora, Leonardo, or
 
 
 [float]
-=== Syntax
+=== Sintassi
 
 [source,arduino]
 ----
@@ -46,11 +46,11 @@ void serialEvent3(){
 ----
 
 [float]
-=== Parameters
+=== Parametri
 `statements`: any valid statements
 
 [float]
-=== Returns
+=== Restituisce
 Nothing
 
 --
@@ -62,7 +62,7 @@ Nothing
 --
 
 [float]
-=== See also
+=== Vedi anche
 
 [role="example"]
 * #EXAMPLE# http://arduino.cc/en/Tutorial/SerialEvent[SerialEvent Tutorial]

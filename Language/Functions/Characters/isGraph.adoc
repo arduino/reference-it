@@ -5,9 +5,6 @@ subCategories: [ "Characters" ]
 ---
 
 
-
-
-
 = isGraph(thisChar)
 
 
@@ -16,25 +13,25 @@ subCategories: [ "Characters" ]
 --
 
 [float]
-=== Description
-Analyse if a char is printable with some content (space is printable but has no content). Returns true if thisChar is printable. 
+=== Descrizione
+Analizza se un carattere è stampabile con qualche contenuto (spazio è stampabile ma non ha contenuto). Restituisce true se thisChar è stampabile.
 [%hardbreaks]
 
 
 [float]
-=== Syntax
+=== Sintassi
 [source,arduino]
 ----
 `isGraph(thisChar)`
 ----
 
 [float]
-=== Parameters
-`thisChar`: variable. *Allowed data types:* char
+=== Parametri
+`thisChar`: variabile. *Tipi di dato accettati:* char
 
 [float]
-=== Returns
-`true`: if thisChar is printable.
+=== Restituisce
+`true`: se thisChar è stampabile.
 
 --
 // OVERVIEW SECTION ENDS
@@ -46,7 +43,7 @@ Analyse if a char is printable with some content (space is printable but has no 
 --
 
 [float]
-=== Example Code
+=== Codice di esempio.
 
 [source,arduino]
 ----
@@ -70,7 +67,7 @@ else
 --
 
 [float]
-=== See also
+=== Vedi anche
 
 [role="language"]
 * #LANGUAGE#  link:../../../variables/data-types/char[char]

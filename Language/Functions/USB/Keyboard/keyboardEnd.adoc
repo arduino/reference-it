@@ -13,22 +13,22 @@ title: Keyboard.end()
 --
 
 [float]
-=== Description
+=== Descrizione
 Stops the keyboard emulation to a connected computer. To start keyboard emulation, use link:../keyboardbegin[Keyboard.begin()].
 [%hardbreaks]
 
 
 [float]
-=== Syntax
+=== Sintassi
 `Keyboard.end()`
 
 
 [float]
-=== Parameters
+=== Parametri
 Nothing
 
 [float]
-=== Returns
+=== Restituisce
 Nothing
 
 --
@@ -42,8 +42,8 @@ Nothing
 --
 
 [float]
-=== Example Code
-// Describe what the example code is all about and add relevant code   ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
+=== Codice di Esempio
+// Descrivi di quale argomento tratta il codice di esempio e aggiungi il codice relativo   ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
 
 
 [source,arduino]

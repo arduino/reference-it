@@ -16,27 +16,27 @@ subCategories: [ "Bits and Bytes" ]
 --
 
 [float]
-=== Description
-Writes a bit of a numeric variable.
+=== Descrizione
+Scrive un bit di una variabile numerica.
 [%hardbreaks]
 
 
 [float]
-=== Syntax
+=== Sintassi
 `bitWrite(x, n, b)`
 
 
 [float]
-=== Parameters
-`x`: the numeric variable to which to write
+=== Parametri
+`x`: la variabile numerica dove scrive
 
-`n`: which bit of the number to write, starting at 0 for the least-significant (rightmost) bit
+`n`: quale bit del numero che deve essere scritto, a partire da 0 per il bit meno significativo (più a destra)
 
-`b`: the value to write to the bit (0 or 1)
+`b`: il valore da scrivere (0 o 1)
 
 [float]
-=== Returns
-Nothing
+=== Restituisce
+Nulla
 
 --
 // OVERVIEW SECTION ENDS

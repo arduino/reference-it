@@ -13,22 +13,22 @@ title: Mouse.end()
 --
 
 [float]
-=== Description
+=== Descrizione
 Stops emulating the mouse connected to a computer. To start control, use link:../mousebegin[Mouse.begin()].
 [%hardbreaks]
 
 
 [float]
-=== Syntax
+=== Sintassi
 `Mouse.end()`
 
 
 [float]
-=== Parameters
+=== Parametri
 Nothing
 
 [float]
-=== Returns
+=== Restituisce
 Nothing
 
 --
@@ -42,8 +42,8 @@ Nothing
 --
 
 [float]
-=== Example Code
-// Describe what the example code is all about and add relevant code   ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
+=== Codice di Esempio
+// Descrivi di quale argomento tratta il codice di esempio e aggiungi il codice relativo   ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
 
 
 [source,arduino]
@@ -76,7 +76,7 @@ void loop(){
 --
 
 [float]
-=== See also
+=== Vedi anche
 
 [role="language"]
 * #LANGUAGE# link:../mouseclick[Mouse.click()]

@@ -5,9 +5,6 @@ subCategories: [ "Characters" ]
 ---
 
 
-
-
-
 = isPrintable(thisChar)
 
 
@@ -16,25 +13,26 @@ subCategories: [ "Characters" ]
 --
 
 [float]
-=== Description
-Analyse if a char is printable (that is any character that produces an output, even a blank space). Returns true if thisChar is printable. 
+=== Descrizione
+Analizza se un carattere è stampabile (un carattere che produce un output, anche uno spazio bianco).
+Restituisce 'true' se thisChar è stampabile.
 [%hardbreaks]
 
 
 [float]
-=== Syntax
+=== Sintassi
 [source,arduino]
 ----
 `isAlpha(thisChar)`
 ----
 
 [float]
-=== Parameters
-`thisChar`: variable. *Allowed data types:* char
+=== Parametri
+`thisChar`: variabile. *Tipi di dati accettati:* char
 
 [float]
-=== Returns
-`true`: if thisChar is printable.
+=== Restituisce
+`true`: se thisChar è stampabile.
 
 --
 // OVERVIEW SECTION ENDS
@@ -46,7 +44,7 @@ Analyse if a char is printable (that is any character that produces an output, e
 --
 
 [float]
-=== Example Code
+=== Codice di esempio
 
 [source,arduino]
 ----
@@ -70,7 +68,7 @@ else
 --
 
 [float]
-=== See also
+=== Vedi anche
 
 [role="language"]
 * #LANGUAGE#  link:../../../variables/data-types/char[char]

@@ -13,7 +13,7 @@ title: Stream.findUntil()
 --
 
 [float]
-=== Description
+=== Descrizione
 `findUntil()` reads data from the stream until the target string of given length or terminator string is found.
 
 The function returns true if target string is found, false if timed out
@@ -23,16 +23,16 @@ This function is part of the Stream class, and is called by any class that inher
 
 
 [float]
-=== Syntax
+=== Sintassi
 `stream.findUntil(target, terminal)`
 
 
 [float]
-=== Parameters
+=== Parametri
 `stream.findUntil(target, terminal)`
 
 [float]
-=== Returns
+=== Restituisce
 `boolean`
 
 --
