@@ -31,9 +31,9 @@ La temporizzazione di questa funzione è stata determinata empiricamente e proba
 
 [float]
 === Parametri
-`pin`: il numero del pin dal quale  vuoi leggere l'impulso. (int)
+`pin`: il numero del pin dal quale vuoi leggere l'impulso. (int)
 
-`valore`: il tipo di impulso da leggere: può essere link:../../../variables/constants/constants/[HIGH] oppure link:../../../variables/constants/constants/[LOW]. (int)
+`valore`: il tipo di impulso da leggere: può essere link:https://www.arduino.cc/reference/it/language/variables/constants/constants/[HIGH] oppure link:https://www.arduino.cc/reference/en/language/variables/constants/constants/[LOW]. (int)
 
 `timeout` (opzionale): il numero dei microsecondi in cui aspettare che l'impulso parta; Il valore predefinito è di un secondo ( unsigned long )
 [float]
@@ -57,7 +57,7 @@ Questo programma di esempio calcola il tempo di durata di un impulso sul pin 7.
 [source,arduino]
 ----
 int pin = 7;
-unsigned long duration;
+unsigned long durata;
 
 void setup()
 {
@@ -66,7 +66,7 @@ void setup()
 
 void loop()
 {
-  duration = pulseIn(pin, HIGH);
+  durata = pulseIn(pin, HIGH);
 }
 ----
 [%hardbreaks]
