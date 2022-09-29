@@ -16,25 +16,25 @@ subCategories: [ "Characters" ]
 --
 
 [float]
-=== Description
-Analyse if a char is alphanumeric (that is a letter or a numbers). Returns true if thisChar contains either a number or a letter. 
+=== Descrizione
+Controlla se un char è alfanumerico (una lettera o un numero). Restituisce true se thisChar contiene una lettera o un numero. 
 [%hardbreaks]
 
 
 [float]
-=== Syntax
+=== Sintassi
 [source,arduino]
 ----
 `isAlphaNumeric(thisChar)`
 ----
 
 [float]
-=== Parameters
-`thisChar`: variable. *Allowed data types:* char
+=== Parametri
+`thisChar`: variabile. *Tipi di dati permessi:* char
 
 [float]
-=== Returns
-`true`: if thisChar is alphanumeric.
+=== Restituisce
+`true`: se thisChar è alfanumerico.
 
 --
 // OVERVIEW SECTION ENDS
@@ -46,17 +46,17 @@ Analyse if a char is alphanumeric (that is a letter or a numbers). Returns true 
 --
 
 [float]
-=== Example Code
+=== Codice di esempio
 
 [source,arduino]
 ----
-if (isAlphaNumeric(this))      // tests if this isa letter or a number
+if (isAlphaNumeric(this))      // controlla se this è una lettera o un numero
 {
-	Serial.println("The character is alphanumeric");
+	Serial.println("Il carattere è alfanumerico");
 }
 else
 {
-	Serial.println("The character is not alphanumeric");
+	Serial.println("Il carattere non è alfanumerico");
 }
 
 ----
@@ -70,13 +70,13 @@ else
 --
 
 [float]
-=== See also
+=== Vedi anche
 
 [role="language"]
-* #LANGUAGE#  link:../../../variables/data-types/char[char]
-* #LANGUAGE#  link:../../../structure/control-structure/if[if (conditional operators)]
-* #LANGUAGE#  link:../../../structure/control-structure/while[while (conditional operators)]
-* #LANGUAGE# link:../../communication/serial/read[read()]
+* #LINGUAGGIO#  link:../../../variables/data-types/char[char]
+* #LINGUAGGIO#  link:../../../structure/control-structure/if[if (conditional operators)]
+* #LINGUAGGIO#  link:../../../structure/control-structure/while[while (conditional operators)]
+* #LINGUAGGIO# link:../../communication/serial/read[read()]
 
 --
 // SEE ALSO SECTION ENDS
