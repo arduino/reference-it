@@ -18,12 +18,12 @@ subCategories: [ "Analog I/O" ]
 === Descrizione
 Legge il valore dal pin analogico specificato.
 
-La scheda Arduino contiene un convertitore analogico-digitale a 6 canali ( 8 canali su Arduino Mini e Nano, 16 sul Mega ), a 10 bit.
+La scheda Arduino contiene un convertitore analogico/digitale a 6 canali ( 8 canali su Arduino Mini e Nano, 16 su Arduino Mega ), a 10 bit.
 Questo significa che mapperà le tensioni in ingresso tra 0 e 5 volt usando valori interi compresi tra 0 e 1023.
-Questo porta ad una risoluzione tra le letture di: 5 volt / 1024 unità oppure, 0.0049 volt ( 4.9 mV ) per unità.
+Questo porta a una risoluzione tra le letture di: 5 volt / 1024 con una risoluzione di 0.0049 volt ( 4.9 mV ) per unità.
 L'intervallo delle tensioni in ingresso e la risoluzione possono essere cambiate usando link:../analogreference[analogReference()].
 
-Ci vogliono circa 100 microsecondi ( 0.0001 s ) per leggere un ingresso analogico, quindi il massimo rateo di lettura è di circa 10,000 volte al secondo.
+Occorrono circa 100 microsecondi ( 0.0001 s ) per leggere un ingresso analogico, quindi la massima velocità di lettura è circa 10,000 letture al secondo.
 [%hardbreaks]
 
 
@@ -34,11 +34,11 @@ Ci vogliono circa 100 microsecondi ( 0.0001 s ) per leggere un ingresso analogic
 
 [float]
 === Parametri
-`pin`: il numero del pin analogico da cui leggere ( da 0 a 5 su molte schede, da 0 a 7 su Mini e Nano, da 0 a 15 sul Mega )
+`pin`: il numero del pin analogico da cui leggere ( da 0 a 5 V su molte schede, da 0 a 7 V su Mini e Nano, da 0 a 15 V su Mega )
 
 [float]
 === Restituisce
-int( 0 to 1023 )
+int( 0 a 1023 )
 
 --
 // OVERVIEW SECTION ENDS
@@ -68,7 +68,7 @@ void setup()
 
 void loop()
 {
-  val = analogRead(analogPin);     // leggi il pin di input
+  val = analogRead(analogPin);     // legge il pin di input
   Serial.println(val);             // visualizza il valore sul monitor seriale
 }
 ----
@@ -76,7 +76,7 @@ void loop()
 
 [float]
 === Note e Avvertimenti
-Se il pin analogico non è connesso a niente, il valore restituito da analogRead() fluttuerà in base ad un numero di fattori ( es. il valore di altri input analogici, la vicinanza della tua mano alla scheda, ecc... ).
+Se il pin analogico non è connesso, il valore restituito da analogRead() fluttuerà in base a un numero di fattori ( come il valore di altri input analogici, la vicinanza della mano alla scheda, ecc... ).
 
 --
 // HOW TO USE SECTION ENDS
