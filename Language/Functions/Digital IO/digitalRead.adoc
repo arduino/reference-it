@@ -16,23 +16,23 @@ subCategories: [ "Digital I/O" ]
 --
 
 [float]
-=== Description
-Reads the value from a specified digital pin, either `HIGH` or `LOW`.
+=== Descrizione
+Legge il valore di un pin digitale specificato, può essere `HIGH` o `LOW`.
 [%hardbreaks]
 
 
 [float]
-=== Syntax
+=== Sintassi
 `digitalRead(pin)`
 
 
 [float]
-=== Parameters
-`pin`: the number of the digital pin you want to read
+=== Parametri
+`pin`: il numero del pin digitale che si vuole leggere
 
 [float]
-=== Returns
-`HIGH` or `LOW`
+=== Restituisce
+`HIGH` o `LOW`
 
 --
 // OVERVIEW SECTION ENDS
@@ -45,35 +45,35 @@ Reads the value from a specified digital pin, either `HIGH` or `LOW`.
 --
 
 [float]
-=== Example Code
+=== Codice di esempio
 // Describe what the example code is all about and add relevant code   ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
-Sets pin 13 to the same value as pin 7, declared as an input.
+Imposta il pin 13 sullo stesso valore del pin 7, dichiarato come ingresso.
 
 //[source,arduino]
 ----
-int ledPin = 13;   // LED connected to digital pin 13
-int inPin = 7;     // pushbutton connected to digital pin 7
-int val = 0;       // variable to store the read value
+int ledPin = 13;   // Il LED è collegato al pin digitale 13
+int inPin = 7;     // Il pulsante è collegato al pin digitale 7
+int val = 0;       // Variabile per memorizzare il valore letto
 
 void setup()
 {
-  pinMode(ledPin, OUTPUT);      // sets the digital pin 13 as output
-  pinMode(inPin, INPUT);        // sets the digital pin 7 as input
+  pinMode(ledPin, OUTPUT);      // Imposta il pin digitale 13 come uscita
+  pinMode(inPin, INPUT);        // Imposta il pin digitale 7 come ingresso
 }
 
 void loop()
 {
-  val = digitalRead(inPin);     // read the input pin
-  digitalWrite(ledPin, val);    // sets the LED to the button's value
+  val = digitalRead(inPin);     // Legge il pin di ingresso
+  digitalWrite(ledPin, val);    // Imposta il LED sul valore del pulsante
 }
 ----
 [%hardbreaks]
 
 [float]
-=== Notes and Warnings
-If the pin isn't connected to anything, digitalRead() can return either HIGH or LOW (and this can change randomly).
+=== Note e avvertenze
+Se il pin non è connesso, digitalRead() può restituire HIGH o LOW (anche in modo casuale).
 
-The analog input pins can be used as digital pins, referred to as A0, A1, etc.
+I pin di ingresso analogici possono essere utilizzati anche come pin digitali, indicati come A0, A1, ecc.
 
 --
 // HOW TO USE SECTION ENDS
@@ -84,7 +84,7 @@ The analog input pins can be used as digital pins, referred to as A0, A1, etc.
 --
 
 [float]
-=== See also
+=== Vedi anche
 
 [role="example"]
 * #EXAMPLE# Tutorial: (http://arduino.cc/en/Tutorial/DigitalPins[Digital Pins])
