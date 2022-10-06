@@ -16,24 +16,24 @@ subCategories: [ "Data Types" ]
 --
 
 [float]
-=== Description
-Datatype for floating-point numbers, a number that has a decimal point. Floating-point numbers are often used to approximate analog and continuous values because they have greater resolution than integers. Floating-point numbers can be as large as 3.4028235E+38 and as low as -3.4028235E+38. They are stored as 32 bits (4 bytes) of information.
+=== Descrizione
+Tipo di dato per i numeri in virgola mobile, un numero che ha un punto decimale. I numeri in virgola mobile sono spesso utilizzati per approssimare valori analogici e continui, perché hanno una risoluzione maggiore rispetto ai numeri interi. I numeri in virgola mobile possono essere grandi fino a 3,4028235E+38 e minimi fino a -3,4028235E+38. Vengono memorizzati in 32 bit (4 byte) di informazioni.
 
-Floats have only 6-7 decimal digits of precision. That means the total number of digits, not the number to the right of the decimal point. Unlike other platforms, where you can get more precision by using a double (e.g. up to 15 digits), on the Arduino, double is the same size as float.
+I float dispongono di una precisione di sole 6-7 cifre decimali. Per precisione si intende il numero totale di cifre, non il numero a destra del punto decimale. A differenza di altre piattaforme, dove è possibile ottenere una maggiore precisione utilizzando un double ( ad esempio fino a 15 cifre), su Arduino il double ha le stesse dimensioni del float.
 
-Floating point numbers are not exact, and may yield strange results when compared. For example 6.0 / 3.0 may not equal 2.0. You should instead check that the absolute value of the difference between the numbers is less than some small number.
+I numeri in virgola mobile non sono esatti e possono dare risultati anomali quando vengono confrontati. Per esempio 6,0 / 3,0 potrebbe non essere uguale a 2,0. Si dovrebbe invece verificare che il valore assoluto della differenza tra i numeri sia inferiore a un numero piccolo.
 
-Floating point math is also much slower than integer math in performing calculations, so should be avoided if, for example, a loop has to run at top speed for a critical timing function. Programmers often go to some lengths to convert floating point calculations to integer math to increase speed.
+La matematica in virgola mobile è anche molto più lenta della matematica intera nell'esecuzione dei calcoli, quindi dovrebbe essere evitata se, per esempio, un ciclo deve essere eseguito alla massima velocità per una funzione di temporizzazione critica. I programmatori spesso si sforzano di convertire i calcoli in virgola mobile in calcoli interi per aumentare la velocità.
 
-If doing math with floats, you need to add a decimal point, otherwise it will be treated as an int. See the link:../../constants/floatingpointconstants[Floating point] constants page for details.
+Se si eseguono calcoli in virgola mobile, è necessario aggiungere un punto decimale, altrimenti verranno trattati come int. Per maggiori dettagli, consultare il link:../../constants/floatingpointconstants[Virgola mobile].
 [%hardbreaks]
 
 [float]
-=== Syntax
+=== Sintassi
 `float var=val;`
 
-`var` - your float variable name
-`val` - the value you assign to that variable
+`var` - il nome della variabile float
+`val` - il valore assegnato alla variabile
 [%hardbreaks]
 
 --
@@ -47,7 +47,7 @@ If doing math with floats, you need to add a decimal point, otherwise it will be
 --
 
 [float]
-=== Example Code
+=== Codice di esempio
 // Describe what the example code is all about and add relevant code   ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
 
 
@@ -61,8 +61,8 @@ If doing math with floats, you need to add a decimal point, otherwise it will be
   float z;
 
   x = 1;
-  y = x / 2;            // y now contains 0, ints can't hold fractions
-  z = (float)x / 2.0;   // z now contains .5 (you have to use 2.0, not 2)
+  y = x / 2;            // y ora contiene 0, gli int non possono contenere frazioni
+  z = (float)x / 2.0;   // z now contains .5 (si deve usare 2.0, non 2)
 ----
 
 
@@ -75,7 +75,7 @@ If doing math with floats, you need to add a decimal point, otherwise it will be
 --
 
 [float]
-=== See also
+=== Vedi anche
 
 [role="language"]
 
