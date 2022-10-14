@@ -19,7 +19,7 @@ subCategories: [ "Data Types" ]
 === Descrizione
 Tipo di dato per i numeri in virgola mobile, un numero che ha un punto decimale. I numeri in virgola mobile sono spesso utilizzati per approssimare valori analogici e continui, perché hanno una precisione maggiore rispetto ai numeri interi. I numeri in virgola mobile possono essere grandi fino a 3,4028235E+38 e piccoli fino a -3,4028235E+38. Vengono memorizzati in 32 bit (4 byte) di informazioni.
 
-I float dispongono di una precisione di sole 6-7 cifre decimali. Per precisione si intende il numero totale di cifre, non il numero a destra del punto decimale. A differenza di altre piattaforme, dove è possibile ottenere una maggiore precisione utilizzando un double ( ad esempio fino a 15 cifre), su Arduino il double ha le stesse dimensioni del float.
+I float dispongono di una precisione di sole 6-7 cifre decimali. Per precisione si intende il numero totale di cifre, non il numero a destra del punto decimale. A differenza di altre piattaforme, dove è possibile ottenere una maggiore precisione utilizzando una variabile di tipo double (ad esempio fino a 15 cifre), su Arduino il double ha le stesse dimensioni del float.
 
 I numeri in virgola mobile non sono esatti e possono dare risultati anomali quando vengono confrontati. Per esempio 6,0 / 3,0 potrebbe non essere uguale a 2,0. Si dovrebbe invece verificare che il valore assoluto della differenza tra i numeri sia inferiore a un numero piccolo.
 
