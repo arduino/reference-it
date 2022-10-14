@@ -9,7 +9,7 @@ subCategories: [ "Comparison Operators" ]
 
 
 
-= >= Greater Than or Equal To
+= > Maggiore o uguale di
 
 
 // OVERVIEW SECTION STARTS
@@ -17,22 +17,22 @@ subCategories: [ "Comparison Operators" ]
 --
 
 [float]
-=== Description
-Compares the variable on the left with the value or variable on the right of the operator. Returns true when the operand on the left is greater (bigger) than or equal to the operand on the right. 
+=== Descrizione
+Confronta la variabile a sinistra con il valore o la variabile a destra dell'operatore. Restituisce vero quando l'operando a sinistra è maggiore (più grande) o uguale dell'operando a destra. 
 [%hardbreaks]
 
 
 [float]
-=== Syntax
+=== Sintassi
 [source,arduino]
 ----
-x >= y;   // is true if x is bigger than or equal to y and it is false if x is smaller than y
+x >= y;   // è vero se x è maggiore o uguale a y ed è falso se x è minore di y
 ----
 
 [float]
-=== Parameters
-`x`: variable. *Allowed data types:* int, float, double, byte, short, long +
-`y`: variable or constant. *Allowed data types:* int, float, double, byte, short, long
+=== Parametri
+`x`: variabile. *Tipi di dati consentiti:* int, float, double, byte, short, long +
+`y`: variabile o costante. *Tipi di dati consentiti:* int, float, double, byte, short, long
 
 --
 // OVERVIEW SECTION ENDS
@@ -44,20 +44,20 @@ x >= y;   // is true if x is bigger than or equal to y and it is false if x is s
 --
 
 [float]
-=== Example Code
+=== Codice di esempio
 
 [source,arduino]
 ----
-if (x>=y)      // tests if x is greater (bigger) than or equal to y
+if (x>=y)      // verifica se x è maggiore (più grande) o uguale a y
 {
-// do something only if the comparison result is true
+// esegue qualcosa solo se il risultato del confronto è vero
 }
 ----
 [%hardbreaks]
 
 [float]
-=== Notes and Warnings
-Positive numbers are greater than negative numbers. 
+=== Note e Avvertimenti
+I numeri positivi sono maggiori dei numeri negativi. 
 [%hardbreaks]
 
 --
@@ -69,7 +69,7 @@ Positive numbers are greater than negative numbers.
 --
 
 [float]
-=== See also
+=== Vedi anche
 
 
 --
