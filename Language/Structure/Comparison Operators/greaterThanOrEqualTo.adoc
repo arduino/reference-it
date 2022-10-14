@@ -26,7 +26,7 @@ Confronta la variabile a sinistra con il valore o la variabile a destra dell'ope
 === Sintassi
 [source,arduino]
 ----
-x >= y;   // è vero se x è maggiore o uguale di y ed è falso se x è minore di y
+x >= y;   // è vero se x è maggiore o uguale a y ed è falso se x è minore di y
 ----
 
 [float]
