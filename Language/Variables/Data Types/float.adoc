@@ -16,7 +16,7 @@ I float dispongono di una precisione di sole 6-7 cifre decimali. Per precisione 
 
 I numeri in virgola mobile non sono esatti e possono dare risultati anomali quando vengono confrontati. Per esempio 6.0 / 3.0 potrebbe non essere uguale a 2.0. Si dovrebbe invece verificare che il valore assoluto della differenza tra i numeri sia inferiore a un numero piccolo.
 
-La matematica in virgola mobile è anche molto più lenta della matematica intera nell'esecuzione dei calcoli, quindi dovrebbe essere evitata se, per esempio, un ciclo deve essere eseguito alla massima velocità per una funzione di temporizzazione critica. I programmatori spesso si sforzano di convertire i calcoli in virgola mobile in calcoli interi per aumentare la velocità.
+La matematica in virgola mobile è anche molto più lenta della matematica intera nell'esecuzione dei calcoli, quindi dovrebbe essere evitata se, per esempio, è necessario eseguire un ciclo alla massima velocità per una funzione in cui le tempistiche sono critiche. I programmatori spesso si sforzano di convertire i calcoli in virgola mobile in calcoli interi per aumentarne la velocità.
 
 Se si eseguono calcoli in virgola mobile, è necessario aggiungere un punto decimale, altrimenti verranno trattati come int. Per maggiori dettagli, consultare il link:../../constants/floatingpointconstants[Virgola mobile].
 [%hardbreaks]
