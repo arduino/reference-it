@@ -48,7 +48,7 @@ x >= y;   // è vero se x è maggiore o uguale a y ed è falso se x è minore di
 
 [source,arduino]
 ----
-if (x>=y)      // verifica se x è maggiore (più grande) o uguale di y
+if (x>=y)      // verifica se x è maggiore (più grande) o uguale a y
 {
 // esegue qualcosa solo se il risultato del confronto è vero
 }
