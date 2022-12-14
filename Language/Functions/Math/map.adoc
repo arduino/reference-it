@@ -16,45 +16,45 @@ subCategories: [ "Math" ]
 --
 
 [float]
-=== Description
-Re-maps a number from one range to another. That is, a value of *fromLow* would get mapped to *toLow*, a value of *fromHigh* to *toHigh*, values in-between to values in-between, etc.
+=== Descrizione
+Riassegna un numero da un intervallo a un altro. Ovvero, il valore di *fromLow* viene mappato in *toLow*, il valore di *fromHigh* in *toHigh*, i valori intermedi in valori intermedi, ecc.
 
-Does not constrain values to within the range, because out-of-range values are sometimes intended and useful. The `constrain()` function may be used either before or after this function, if limits to the ranges are desired.
+Non vincola i valori all'interno dell'intervallo, perché talvolta sono previsti e utili valori esterni all'intervallo. La funzione `constrain()` può essere utilizzata prima o dopo questa funzione, se si desidera limitare gli intervalli.
 
-Note that the "lower bounds" of either range may be larger or smaller than the "upper bounds" so the `map()` function may be used to reverse a range of numbers, for example
+Si noti che i "limiti inferiori" di un intervallo possono essere più grandi o più piccoli dei "limiti superiori", quindi la funzione `map()` può essere utilizzata per invertire un intervallo di numeri, per esempio
 
 `y = map(x, 1, 50, 50, 1);`
 
-The function also handles negative numbers well, so that this example
+La funzione gestisce correttamente anche numeri negativi, come in questo esempio
 
 `y = map(x, 1, 50, 50, -100);`
 
-is also valid and works well.
+che è valido e funziona correttamente.
 
-The `map()` function uses integer math so will not generate fractions, when the math might indicate that it should do so. Fractional remainders are truncated, and are not rounded or averaged.
+La funzione `map()` utilizza numeri interi, pertanto non genera frazioni, anche se il calcolo potrebbe generarli. I resti frazionari vengono troncati e non vengono arrotondati o mediati.
 [%hardbreaks]
 
 
 [float]
-=== Syntax
+=== Sintassi
 
 
 
 [float]
-=== Parameters
-`value`: the number to map
+=== Parametri
+`value`: il numero da mappare
 
-`fromLow`: the lower bound of the value's current range
+`fromLow`: il limite inferiore dell'intervallo corrente del valore
 
-`fromHigh`: the upper bound of the value's current range
+`fromHigh`: il limite superiore dell'intervallo attuale del valore
 
-`toLow`: the lower bound of the value's target range
+`toLow`: il limite inferiore dell'intervallo di destinazione del valore
 
-`toHigh`: the upper bound of the value's target range
+`toHigh`: il limite superiore dell'intervallo di destinazione del valore
 
 [float]
-=== Returns
-The mapped value.
+=== Restituisce
+Il valore mappato.
 
 --
 // OVERVIEW SECTION ENDS
@@ -67,13 +67,13 @@ The mapped value.
 --
 
 [float]
-=== Example Code
+=== Codice di esempio
 // Describe what the example code is all about and add relevant code   ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
 
 
 [source,arduino]
 ----
-/* Map an analog value to 8 bits (0 to 255) */
+/* Mappa un valore analogico a 8 bit (da 0 a 255) */
 void setup() {}
 
 void loop()
@@ -86,9 +86,9 @@ void loop()
 [%hardbreaks]
 
 [float]
-=== Appendix
+=== Appendice
 
-For the mathematically inclined, here's the whole function
+Per i matematici, ecco la funzione completa
 
 [source,arduino]
 ----
