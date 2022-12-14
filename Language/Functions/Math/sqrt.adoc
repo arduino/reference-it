@@ -12,27 +12,27 @@ subCategories: [ "Math" ]
 
 
 // OVERVIEW SECTION STARTS
-Calculates the square root of a number.
+Calcola la radice quadrata di un numero.
 [#overview]
 --
 
 [float]
-=== Description
+=== Descrizione
 [%hardbreaks]
 
 
 [float]
-=== Syntax
+=== Sintassi
 `sqrt(x)`
 
 
 [float]
-=== Parameters
-`x`: the number, any data type
+=== Parametri
+`x`: il numero, qualsiasi tipo di dati
 
 [float]
-=== Returns
-The number's square root. (double)
+=== Restituisce
+La radice quadrata del numero. (double)
 
 --
 // OVERVIEW SECTION ENDS
