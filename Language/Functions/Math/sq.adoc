@@ -16,23 +16,23 @@ subCategories: [ "Math" ]
 --
 
 [float]
-=== Description
-Calculates the square of a number: the number multiplied by itself.
+=== Descrizione
+Calcola il quadrato di un numero: il numero moltiplicato per se stesso.
 [%hardbreaks]
 
 
 [float]
-=== Syntax
+=== Sintassi
 `sq(x)`
 
 
 [float]
-=== Parameters
-`x`: the number, any data type
+=== Parametri
+`x`: il numero, qualsiasi tipo
 
 [float]
-=== Returns
-The square of the number. (double)
+=== Restituisce
+Il quadrato del numero. (double)
 
 --
 // OVERVIEW SECTION ENDS
