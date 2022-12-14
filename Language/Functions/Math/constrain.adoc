@@ -16,29 +16,29 @@ subCategories: [ "Math" ]
 --
 
 [float]
-=== Description
-Constrains a number to be within a range.
+=== Descrizione
+Impone che un numero sia compreso in un intervallo.
 [%hardbreaks]
 
 
 [float]
-=== Syntax
+=== Sintassi
 `constrain(x, a, b)`
 
 
 [float]
-=== Parameters
-`x`: the number to constrain, all data types
-`a`: the lower end of the range, all data types
-`b`: the upper end of the range, all data types
+=== Parametri
+`x`: il numero da vincolare, qualsiasi tipo di dato
+`a`: l'estremo inferiore dell'intervallo, qualsiasi tipo di dato
+`b`: l'estremo superiore dell'intervallo, qualsiasi tipo di dato
 
 [float]
-=== Returns
-x: if x is between a and b
+=== Restituisce
+x: se x è compreso tra a e b
 
-a: if x is less than a
+a: se x è minore di a
 
-b: if x is greater than b
+b: se x è maggiore di b
 
 --
 // OVERVIEW SECTION ENDS
@@ -51,13 +51,13 @@ b: if x is greater than b
 --
 
 [float]
-=== Example Code
+=== Codice di esempio
 // Describe what the example code is all about and add relevant code   ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
-The code limits the sensor values to between 10 to 150.
+Il codice limita i valori del sensore in un intervallo compreso tra 10 e 150.
 
 [source,arduino]
 ----
-sensVal = constrain(sensVal, 10, 150);    // limits range of sensor values to between 10 and 150
+sensVal = constrain(sensVal, 10, 150);    // limita la gamma dei valori del sensore a un intervallo compreso tra 10 e 150
 ----
 
 --
