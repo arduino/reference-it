@@ -8,7 +8,7 @@ subCategories: [ "Math" ]
 
 
 
-= pow(base, exponent)
+= pow(base, esponente)
 
 
 // OVERVIEW SECTION STARTS
@@ -16,25 +16,25 @@ subCategories: [ "Math" ]
 --
 
 [float]
-=== Description
-Calculates the value of a number raised to a power. `Pow()` can be used to raise a number to a fractional power. This is useful for generating exponential mapping of values or curves.
+=== Descrizione
+Calcola il valore di un numero elevato a potenza. `Pow()` può essere usato per elevare un numero a una potenza frazionaria. Questo è utile per generare mappature esponenziali di valori o curve.
 [%hardbreaks]
 
 
 [float]
-=== Syntax
-`pow(base, exponent)`
+=== Sintassi
+`pow(base, esponente)`
 
 
 [float]
-=== Parameters
-`base`: the number (`float`)
+=== Parametri
+`base`: il numero (`float`)
 
-`exponent`: the power to which the base is raised (`float`)
+`esponente`: la potenza a cui si eleva la base (`float`)
 
 [float]
-=== Returns
-The result of the exponentiation. (`double`)
+=== Restituisce
+Il risultato dell'esponenziale. (`double`)
 
 --
 // OVERVIEW SECTION ENDS
@@ -45,9 +45,9 @@ The result of the exponentiation. (`double`)
 --
 
 [float]
-=== Example Code
+=== Codice di esempio
 // Describe what the example code is all about and add relevant code   ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
-See the (http://arduino.cc/playground/Main/Fscale[fscale]) function in the code library.
+Vedi la funzione (http://arduino.cc/playground/Main/Fscale[fscale]) nella libreria dei codici.
 
 --
 // HOW TO USE SECTION ENDS
@@ -58,7 +58,7 @@ See the (http://arduino.cc/playground/Main/Fscale[fscale]) function in the code 
 --
 
 [float]
-=== See also
+=== Vedi anche
 
 [role="definition"]
 * #DEFINITION# link:../../../variables/data-types/float[float]
