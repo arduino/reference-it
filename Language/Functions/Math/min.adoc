@@ -16,25 +16,25 @@ subCategories: [ "Math" ]
 --
 
 [float]
-=== Description
-Calculates the minimum of two numbers.
+=== Descrizione
+Calcola il minimo di due numeri.
 [%hardbreaks]
 
 
 [float]
-=== Syntax
+=== Sintassi
 `min(x, y)`
 
 
 [float]
-=== Parameters
-`x`: the first number, any data type
+=== Parametri
+`x`: il primo numero, qualsiasi tipo di dati
 
-`y`: the second number, any data type
+`y`: il secondo numero, qualsiasi tipo di dati
 
 [float]
-=== Returns
-The smaller of the two numbers.
+=== Restituisce
+Il minore dei due valori.
 
 --
 // OVERVIEW SECTION ENDS
@@ -47,28 +47,28 @@ The smaller of the two numbers.
 --
 
 [float]
-=== Example Code
+=== Codice di esempio
 // Describe what the example code is all about and add relevant code   ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
-The code ensures that it never gets above 100.
+Il codice assicura che non si superi mai il valore 100.
 
 [source,arduino]
 ----
-sensVal = min(sensVal, 100); // assigns sensVal to the smaller of sensVal or 100
-                             // ensuring that it never gets above 100.
+sensVal = min(sensVal, 100); // assegna a sensVal il valore minore tra sensVal e 100
+                             // garantendo di fatto che sia almeno 100.
 ----
 [%hardbreaks]
 
 [float]
-=== Notes and Warnings
-Perhaps counter-intuitively, `max()` is often used to constrain the lower end of a variable's range, while `min()` is used to constrain the upper end of the range.
+=== Note e avvertenze
+Per quanto possa essere controintuitivo, `max()` viene spesso utilizzato per limitare l'estremo inferiore dell'intervallo di una variabile, mentre `min()` viene utilizzato per limitare l'estremo superiore di un intervallo.
 
-Because of the way the `min()` function is implemented, avoid using other functions inside the brackets, it may lead to incorrect results
+Per via del modo in cui la funzione `min()` è implementata, è bene evitare l'uso di altre funzioni all'interno delle parentesi, che potrebbe condurre a risultati errati
 [source,arduino]
 ----
-min(a++, 100);   // avoid this - yields incorrect results
+min(a++, 100);   // evita di farlo: produce risultati errati
 
 min(a, 100);
-a++;    // use this instead - keep other math outside the function
+a++;    // usa invece questo: mantenendo gli altri calcoli al di fuori della funzione
 ----
 
 --
